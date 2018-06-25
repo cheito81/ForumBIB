@@ -97,19 +97,17 @@ a.active {
   border-bottom: 1px solid;
 }
 
-#Descripción{
-  background-color: white;
-}
 section{
   padding-top: 64px;
   padding-bottom: 64px;
-  padding-left: 34;
-  padding-right: 34;
+  padding-left: 34px !important;
+  padding-right: 34px !important;
   background: #fff;
   margin-bottom: 20px;
 }
 nav{
-  height: 64px;
+  color: rgba(116, 192, 175) !important;
+  background: #fff !important;
 }
 
 .carousel-item {
@@ -117,6 +115,7 @@ nav{
   min-width: 100%;
   min-height: 500px;
  max-height: 500px;
+ background-color: #000;
 }
 .carousel-item >img {
  min-height: 500px;

@@ -6,14 +6,18 @@ $(document).ready(function(){
     var href = $(this).attr('href');
     $('html, body').animate({ scrollTop : $( href ).offset().top }, 'easeout');
     });
-
+     $(window).scroll(function () { 
+        var scroll = $(window).scrollTop();
+        newFunction(scroll);
+    });
+    
 });
 
 function newFunction(scroll) {
     if (scroll > 50) {
-        $("h3").addClass(".section-title");
+        $("nav").addClass(".navbar-solid");
     }
     else {
-        $("h3").removeClass(".section-title");
+        $("nav").removeClass(".navbar-solid");
     }
 }
