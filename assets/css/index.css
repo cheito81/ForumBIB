@@ -1,7 +1,6 @@
 body{
   position: relative;
  background-color: rgba(116, 192, 175);
-padding: 15px;
 }
 /*
 background-color: rgba(85, 84, 88); negro 
@@ -97,15 +96,29 @@ a.active {
   color: #56B156 !important;
   border-bottom: 1px solid;
 }
-.section{
-  background-color: white;
-}
+
 #Descripción{
   background-color: white;
 }
-.gif{
-  width: 250px;
-  height: 250px;
-
+section{
+  padding-top: 64px;
+  padding-bottom: 64px;
+  padding-left: 34;
+  padding-right: 34;
+  background: #fff;
+  margin-bottom: 20px;
+}
+nav{
+  height: 64px;
 }
 
+.carousel-item {
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 500px;
+ max-height: 500px;
+}
+.carousel-item >img {
+ min-height: 500px;
+ max-height: 500px;
+}

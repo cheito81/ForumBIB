@@ -1,16 +1,12 @@
 $(document).ready(function(){
-    $("#ponentMenu").click(function (e) { 
-        e.preventDefault();
-        $("html,body").animate({scrollTop:'2250'}, '2000');
-        return false;
-    });
-    var scroll = $(document).scrollTop();
-    $(document).scroll(function (e) { 
-        e.preventDefault();
-        document.title=scroll;
+
+    linkInterno = $('a[href^="#"]');
+    linkInterno.on('click',function(e) {
+    e.preventDefault();
+    var href = $(this).attr('href');
+    $('html, body').animate({ scrollTop : $( href ).offset().top }, 'easeout');
     });
 
-    
 });
 
 function newFunction(scroll) {
@@ -21,4 +17,3 @@ function newFunction(scroll) {
         $("h3").removeClass(".section-title");
     }
 }
-
