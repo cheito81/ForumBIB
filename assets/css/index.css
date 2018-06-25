@@ -10,19 +10,6 @@ background-color: rgba(85, 84, 88); negro
  background-color: rgba(156, 196, 120); kaki 
 */
  
-
-div.img{
-  position: relative;
-  max-width: 100%;
-  height: 300px;
-          background: url("https://picsum.photos/1200/300") no-repeat center center;
-          background-size: cover;
-
-          display:block
-          -moz-background-size: cover;
-          -webkit-background-size: cover;
-          -o-background-size: cover;
-}
 .partner .partner-box:hover {
   opacity: 1;
 }
@@ -122,6 +109,3 @@ a.active {
 
 }
 
-.navBlue{
-  background-color: 
-}
