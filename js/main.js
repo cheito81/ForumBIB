@@ -4,7 +4,7 @@ $(document).ready(function(){
     linkInterno.on('click',function(e) {
     e.preventDefault();
     var href = $(this).attr('href');
-    $('html, body').animate({ scrollTop : $( href ).offset().top }, 'easeout');
+    $('html, body').animate({ scrollTop : $( href ).offset().top-40 }, 'ease-in');
     });
      $(window).scroll(function () { 
         var scroll = $(window).scrollTop();
