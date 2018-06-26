@@ -16,38 +16,32 @@
     <title>Forum BIB</title>
   </head>
   <body data-spy="scroll" data-target=".navbar" data-offset="50" >
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <a class="navbar-brand text-uppercase logo" href="http://www.bioinformaticsbarcelona.eu/" alt="Logo BIB"><img src="assets/img/logoBib.jpg" class="img-fluid logo" alt=""></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-lg fixed-top" id="site-nav">
+      <a class="navbar-brand text-uppercase logo" href="http://www.bioinformaticsbarcelona.eu/" alt="Logo BIB"><img src="assets/img/logoBib.jpg" class="img-fluid rounded logo" alt=""></a>
+      <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon border"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-md-center" id="navbarNavDropdown">
+      <div class="collapse navbar-collapse justify-content-md-end" id="navbarNavDropdown">
         <ul class="navbar-nav mx-4">
-          <li class="nav-item active mx-3">
-            <a class="nav-link text-uppercase" href="#Descripción" id="DescripciónMenu">Descripción <span class="sr-only">(current)</span></a>
+          <li class="nav-item mx-3">
+            <a class="nav-link text-uppercase" href="#Descripción" id="DescripciónMenu"><strong>Descripción</strong></a>
           </li>
           <li class="nav-item mx-3">
-            <a class="nav-link text-uppercase" href="#ponentes" id="ponentMenu" id="PonentesMenu">Ponentes</a>
+            <a class="nav-link text-uppercase" href="#ponentes" id="ponentMenu" id="PonentesMenu"><strong>Ponentes</strong></a>
           </li>
           <li class="nav-item mx-3">
-            <a class="nav-link text-uppercase" href="#programa" id="ProgramaMenu">Programa</a>
+            <a class="nav-link text-uppercase" href="#programa" id="ProgramaMenu"><strong>Programa</strong></a>
           </li>
           <li class="nav-item mx-3">
-            <a class="nav-link text-uppercase" href="#" id="ponentMenu">Entradas</a>
-          </li>
-          <li class="nav-item mx-3">
-            <a class="nav-link text-uppercase" href="#donde" id="DondeMenu">Donde</a>
-          </li>
-          <li class="nav-item mx-3">
-            <a class="nav-link text-uppercase" href="#inscripcion">Inscripcion</a>
+            <a class="nav-link text-uppercase" href="#donde" id="DondeMenu"><strong>Donde</strong></a>
           </li>
         <li class="nav-item mx-3">
-          <a class="nav-link text-uppercase" href="#Partners" id="PartnersMenu">Partners</a>
+          <a class="nav-link text-uppercase" href="#Partners" id="PartnersMenu"><strong>Partners</strong></a>
         </li>
       </ul>
     </div>
   </nav>
-  <header id="site-header" class="site-header valign-center"> 
+  <header id="site-header" class="site-header valign-center" id="inicio"> 
     <div class="intro">
 
         <h2>25 April, 2015 / Townhall California</h2>
@@ -56,314 +50,592 @@
     </div>
 </header>
   <section class="container" id="Descripción">
-    <div class="">
-      <div class="">
-         <p><h3 class="mb-4">Descripción</h3> </p> 
-        <div class="row">
-          <div class="col">
+      <div>
+          <div>
+            <h3 class="mb-4">Descripción</h3> 
+            <img src="assets/img/bioinformatics/medico.jpg" alt="" class="fotoDescripcion">
+          </div>
+          <div  id="textDescription">
             <p class="text-left">El acceso a ingentes cantidades de datos genómicos ha revolucionado la biomedicina y ha dibujado vías prometedoras para la detección, diagnóstico y tratamiento de numerosas enfermedades complejas. Sin embargo, ha implicado también la aparición de grandes retos tecnológicos, éticos, sociales, legales y asistenciales.</p>
             <p class="text-left">Las predicciones acerca del papel de la medicina personalizada en el futuro más inmediato parece que no se van a cumplir del modo previsto. De una parte, nuestra capacidad de generar datos es costosa y no se da al mismo ritmo que nuestra capacidad de gestionarlos y almacenarlos. Así, la medicina personalizada se podría ver limitada a los países más opulentos. Por otra parte, tampoco nuestra capacidad para interpretar estos datos está satisfaciendo las expectativas creadas. Es decir, el reto en la medicina personalizada viene menos de los avances en producción de datos ómicos que de nuestra capacidad de gestionarlos, analizarlos e interpretarlos.</p>
             
             <p class="text-left">Es por ello que la promesa de la medicina, o mejor, de la salud personalizada se puede ver matizada por la capacidad que tenemos de aprovechar sus enormes potencialidades.</p>
             <p class="text-left">¿Cuál es el papel de la Bioinformática en este escenario? ¿Qué capacidad tiene esta disciplina para resolver algunos de los retos mencionados? <br>¿Qué limitaciones plantea? ¿De quién son los datos genómicos que han de permitir alcanzar grandes retos médicos?  ¿Es posible limitar su utilización con fines de investigación que busca un impacto positivo en la salud humana?</p>
-          </div>
-          <div class="col">
-           
+          
             <p class="text-left">La Asociación Bioinformatics Barcelona (BIB) propone plantear estas preguntas y analizar las posibles respuestas en un foro público donde los diferentes agentes implicados en la materia se verán representados, des de la administración y el sector privado a las asociaciones de pacientes, los gestores de grandes infraestructuras de investigación o académicos de los ámbitos regulatorios y económicos.</p>
             <p class="text-left">El foro, que se llevará a cabo el día 24 de octubre de 2018 en el CosmoCaixa de Barcelona, contará con la participación de John Quackenbush, Profesor de Biología Computacional y Bioinformática en la Harvard School of Public Health. Entre otros temas, se discutirán en formato de mesa redonda las expectativas y realidades de la bioinformática en la salud de precisión, los aspectos éticos y morales de la compartición de datos, y los avances tecnológicos y sus limitaciones. Asimismo está previsto un ejercicio de proyección de la situación actual para determinar el nivel de preparación que tenemos como sociedad, como comunidad científica y tecnológica, y como país, para el futuro de la medicina personalizada y de las personas y disciplinas que han de facilitar su desarrollo y aplicación.</p>
             <p class="text-left">La asistencia al FORUM BIB se realizará por invitación personalizada.</p>
           </div>
         </div>
            
-      </div>
     </div>
   </section>
-  <section class="container" id="ponentes">
-      <div class="">
-        <div class="row ">
-          <div class="col-md-4 mb-4">
-            <div class="card">
-              <img class="card-img-top" src="https://picsum.photos/300/100?image=1083" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
+  <div class="container-fluid bg-dark">
+    <section class="container bg-dark" id="ponentes">
+      <div class="row text-center">
+
+        <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
+          <div class="card hovercard h-100">
+            <div class="cardheader">
+  
+            </div>
+            <div class="avatar">
+              <img alt="" class="rounded-circle bg-white p-1"src="assets/img/ponentes/chica.jpeg">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">lorem</h5>
+              <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
+            </div>
+            <div class="card-footer text-center">
+              <a href="" class="mx-2"><i class="fa fa-facebook"></i></a>
+              <a href="" class="mx-2"><i class="fa fa-twitter "></i></a>
+              <a href="" class="mx-2"><i class="fa fa-instagram "></i></a>
             </div>
           </div>
-          <div class="col-md-4 mb-4">
-            <div class="card">
-              <img class="card-img-top" src="https://picsum.photos/300/100?image=1082" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
+          <div class="card hovercard h-100">
+            <div class="cardheader">
+  
+            </div>
+            <div class="avatar ">
+              <img alt="" class="rounded-circle bg-white p-1" src="assets/img/ponentes/speaker-1.jpg">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">lorem</h5>
+              <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
+            </div>
+            <div class="card-footer text-center">
+              <a href="" class="mx-2"><i class="fa fa-facebook"></i></a>
+              <a href="" class="mx-2"><i class="fa fa-twitter "></i></a>
+              <a href="" class="mx-2"><i class="fa fa-instagram "></i></a>
             </div>
           </div>
-          <div class="col-md-4 mb-4">
-            <div class="card">
-              <img class="card-img-top" src="https://picsum.photos/300/100?image=1080" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
+          <div class="card hovercard h-100">
+            <div class="cardheader">
+  
+            </div>
+            <div class="avatar">
+              <img alt="" class="rounded-circle bg-white p-1" src="assets/img/ponentes/speaker-2.jpg">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">lorem</h5>
+              <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit,  nisi ut aliquip ex ea commodo consequat..</p>
+            </div>
+            <div class="card-footer text-center">
+              <a href="" class="mx-2"><i class="fa fa-facebook"></i></a>
+              <a href="" class="mx-2"><i class="fa fa-twitter "></i></a>
+              <a href="" class="mx-2"><i class="fa fa-instagram "></i></a>
             </div>
           </div>
-          <div class="col-md-4 mb-4">
-            <div class="card">
-              <img class="card-img-top" src="https://picsum.photos/300/100?image=1079" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
+          <div class="card hovercard h-100">
+            <div class="cardheader">
+  
+            </div>
+            <div class="avatar">
+              <img alt="" class="rounded-circle bg-white p-1" src="assets/img/ponentes/speaker-3.jpg">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">lorem</h5>
+              <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
+            </div>
+            <div class="card-footer text-center">
+              <a href="" class="mx-2"><i class="fa fa-facebook"></i></a>
+              <a href="" class="mx-2"><i class="fa fa-twitter "></i></a>
+              <a href="" class="mx-2"><i class="fa fa-instagram "></i></a>
             </div>
           </div>
-          <div class="col-md-4 mb-4">
-            <div class="card">
-              <img class="card-img-top" src="https://picsum.photos/300/100?image=1077" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
+          <div class="card hovercard h-100">
+            <div class="cardheader">
+  
+            </div>
+            <div class="avatar">
+              <img alt="" class="rounded-circle bg-white p-1" src="assets/img/ponentes/speaker-4.jpg">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">lorem</h5>
+              <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
+            </div>
+            <div class="card-footer text-center">
+              <a href="" class="mx-2"><i class="fa fa-facebook"></i></a>
+              <a href="" class="mx-2"><i class="fa fa-twitter "></i></a>
+              <a href="" class="mx-2"><i class="fa fa-instagram "></i></a>
             </div>
           </div>
-          <div class="col-md-4 mb-4">
-            <div class="card">
-              <img class="card-img-top" src="https://picsum.photos/300/100?image=1076" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
+          <div class="card hovercard h-100">
+            <div class="cardheader">
+  
+            </div>
+            <div class="avatar">
+              <img alt="" class="rounded-circle bg-white p-1" src="assets/img/ponentes/speaker-5.jpg">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">lorem</h5>
+              <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
+            </div>
+            <div class="card-footer text-center">
+              <a href="" class="mx-2"><i class="fa fa-facebook"></i></a>
+              <a href="" class="mx-2"><i class="fa fa-twitter "></i></a>
+              <a href="" class="mx-2"><i class="fa fa-instagram "></i></a>
             </div>
           </div>
-          <div class="col-md-4 mb-4">
-            <div class="card">
-              <img class="card-img-top" src="https://picsum.photos/300/100?image=1075" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
+          <div class="card hovercard h-100">
+            <div class="cardheader">
+  
+            </div>
+            <div class="avatar">
+              <img alt="" class="rounded-circle bg-white p-1" src="assets/img/ponentes/speaker-6.jpg">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">lorem</h5>
+              <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
+            </div>
+            <div class="card-footer text-center">
+              <a href="" class="mx-2"><i class="fa fa-facebook"></i></a>
+              <a href="" class="mx-2"><i class="fa fa-twitter "></i></a>
+              <a href="" class="mx-2"><i class="fa fa-instagram "></i></a>
             </div>
           </div>
-          <div class="col-md-4 mb-4">
-            <div class="card">
-              <img class="card-img-top" src="https://picsum.photos/300/100?image=1074" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
+          <div class="card hovercard h-100">
+            <div class="cardheader">
+  
+            </div>
+            <div class="avatar">
+              <img alt="" class="rounded-circle bg-white p-1" src="assets/img/ponentes/speaker-1.jpg">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">lorem</h5>
+              <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
+            </div>
+            <div class="card-footer text-center">
+              <a href="" class="mx-2"><i class="fa fa-facebook"></i></a>
+              <a href="" class="mx-2"><i class="fa fa-twitter "></i></a>
+              <a href="" class="mx-2"><i class="fa fa-instagram "></i></a>
             </div>
           </div>
-          <div class="col-md-4 mb-4">
-            <div class="card">
-              <img class="card-img-top" src="https://picsum.photos/300/100?image=1073" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
+          <div class="card hovercard h-100">
+            <div class="cardheader">
+  
+            </div>
+            <div class="avatar">
+              <img alt="" class="rounded-circle bg-white p-1" src="assets/img/ponentes/speaker-2.jpg">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">lorem</h5>
+              <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
+            </div>
+            <div class="card-footer text-center">
+              <a href="" class="mx-2"><i class="fa fa-facebook"></i></a>
+              <a href="" class="mx-2"><i class="fa fa-twitter "></i></a>
+              <a href="" class="mx-2"><i class="fa fa-instagram "></i></a>
             </div>
           </div>
-          <div class="col-md-4 mb-4">
-            <div class="card">
-              <img class="card-img-top" src="https://picsum.photos/300/100?image=1072" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
+          <div class="card hovercard h-100">
+            <div class="cardheader">
+  
+            </div>
+            <div class="avatar">
+              <img alt="" class="rounded-circle bg-white p-1" src="assets/img/ponentes/speaker-3.jpg">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">lorem</h5>
+              <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
+            </div>
+            <div class="card-footer text-center">
+              <a href="" class="mx-2"><i class="fa fa-facebook"></i></a>
+              <a href="" class="mx-2"><i class="fa fa-twitter "></i></a>
+              <a href="" class="mx-2"><i class="fa fa-instagram "></i></a>
             </div>
           </div>
-          <div class="col-md-4 mb-4">
-            <div class="card">
-              <img class="card-img-top" src="https://picsum.photos/300/100?image=1071" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
+          <div class="card hovercard h-100">
+            <div class="cardheader">
+  
+            </div>
+            <div class="avatar">
+              <img alt="" class="rounded-circle bg-white p-1" src="assets/img/ponentes/speaker-4.jpg">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">lorem</h5>
+              <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
+            </div>
+            <div class="card-footer text-center">
+              <a href="" class="mx-2"><i class="fa fa-facebook"></i></a>
+              <a href="" class="mx-2"><i class="fa fa-twitter "></i></a>
+              <a href="" class="mx-2"><i class="fa fa-instagram "></i></a>
             </div>
           </div>
-          <div class="col-md-4 mb-4">
-            <div class="card">
-              <img class="card-img-top" src="https://picsum.photos/300/100?image=1083" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text" >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
+          <div class="card hovercard h-100">
+            <div class="cardheader">
+  
+            </div>
+            <div class="avatar">
+              <img alt="" class="rounded-circle bg-white p-1" src="assets/img/ponentes/speaker-5.jpg">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">lorem</h5>
+              <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
+            </div>
+            <div class="card-footer text-center">
+              <a href="" class="mx-2"><i class="fa fa-facebook"></i></a>
+              <a href="" class="mx-2"><i class="fa fa-twitter "></i></a>
+              <a href="" class="mx-2"><i class="fa fa-instagram "></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
+          <div class="card hovercard h-100">
+            <div class="cardheader">
+  
+            </div>
+            <div class="avatar">
+              <img alt="" class="rounded-circle bg-white p-1" src="assets/img/ponentes/speaker-6.jpg">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">lorem</h5>
+              <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
+            </div>
+            <div class="card-footer text-center">
+              <a href="" class="mx-2"><i class="fa fa-facebook"></i></a>
+              <a href="" class="mx-2"><i class="fa fa-twitter "></i></a>
+              <a href="" class="mx-2"><i class="fa fa-instagram "></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
+          <div class="card hovercard h-100">
+            <div class="cardheader">
+  
+            </div>
+            <div class="avatar">
+              <img alt="" class="rounded-circle bg-white p-1" src="assets/img/ponentes/speaker-1.jpg">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">lorem</h5>
+              <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
+            </div>
+            <div class="card-footer text-center">
+              <a href="" class="mx-2"><i class="fa fa-facebook"></i></a>
+              <a href="" class="mx-2"><i class="fa fa-twitter "></i></a>
+              <a href="" class="mx-2"><i class="fa fa-instagram "></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
+          <div class="card hovercard h-100">
+            <div class="cardheader">
+  
+            </div>
+            <div class="avatar">
+              <img alt="" class="rounded-circle bg-white p-1" src="assets/img/ponentes/speaker-2.jpg">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">lorem</h5>
+              <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
+            </div>
+            <div class="card-footer text-center">
+              <a href="" class="mx-2"><i class="fa fa-facebook"></i></a>
+              <a href="" class="mx-2"><i class="fa fa-twitter "></i></a>
+              <a href="" class="mx-2"><i class="fa fa-instagram "></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
+          <div class="card hovercard h-100">
+            <div class="cardheader">
+  
+            </div>
+            <div class="avatar">
+              <img alt="" class="rounded-circle bg-white p-1" src="assets/img/ponentes/speaker-3.jpg">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">lorem</h5>
+              <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
+            </div>
+            <div class="card-footer text-center">
+              <a href="" class="mx-2"><i class="fa fa-facebook"></i></a>
+              <a href="" class="mx-2"><i class="fa fa-twitter "></i></a>
+              <a href="" class="mx-2"><i class="fa fa-instagram "></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
+          <div class="card hovercard h-100">
+            <div class="cardheader">
+  
+            </div>
+            <div class="avatar">
+              <img alt="" class="rounded-circle bg-white p-1" src="assets/img/ponentes/speaker-4.jpg">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">lorem</h5>
+              <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
+            </div>
+            <div class="card-footer text-center">
+              <a href="" class="mx-2"><i class="fa fa-facebook"></i></a>
+              <a href="" class="mx-2"><i class="fa fa-twitter "></i></a>
+              <a href="" class="mx-2"><i class="fa fa-instagram "></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
+          <div class="card hovercard h-100">
+            <div class="cardheader">
+  
+            </div>
+            <div class="avatar">
+              <img alt="" class="rounded-circle bg-white p-1" src="assets/img/ponentes/speaker-5.jpg">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">lorem</h5>
+              <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
+            </div>
+            <div class="card-footer text-center">
+              <a href="" class="mx-2"><i class="fa fa-facebook"></i></a>
+              <a href="" class="mx-2"><i class="fa fa-twitter "></i></a>
+              <a href="" class="mx-2"><i class="fa fa-instagram "></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
+          <div class="card hovercard h-100">
+            <div class="cardheader">
+  
+            </div>
+            <div class="avatar">
+              <img alt="" class="rounded-circle bg-white p-1" src="assets/img/ponentes/speaker-6.jpg">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">lorem</h5>
+              <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
+            </div>
+            <div class="card-footer text-center">
+              <a href="" class="mx-2"><i class="fa fa-facebook"></i></a>
+              <a href="" class="mx-2"><i class="fa fa-twitter "></i></a>
+              <a href="" class="mx-2"><i class="fa fa-instagram "></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
+          <div class="card hovercard h-100">
+            <div class="cardheader">
+  
+            </div>
+            <div class="avatar">
+              <img alt="" class="rounded-circle bg-white p-1" src="assets/img/ponentes/speaker-1.jpg">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">lorem</h5>
+              <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
+            </div>
+            <div class="card-footer text-center">
+              <a href="" class="mx-2"><i class="fa fa-facebook"></i></a>
+              <a href="" class="mx-2"><i class="fa fa-twitter "></i></a>
+              <a href="" class="mx-2"><i class="fa fa-instagram "></i></a>
             </div>
           </div>
         </div>
       </div>
     </section>
-  
-  <section class="container" id="programa">
-    <div class="">
-        <div class="table-responsive-sm">
-            <h3 class="">Programa</h3>
-            <h2>Audiencia del Fórum</h2>
-            <p>Profesionales, académicos, asociaciones de pacientes</p>
-            <h2>Idioma:</h2>
-            <p>Castellano e inglés</p>
-            <p><a class="btn btn-success" href="/media/upload/arxius/ForumBIB/PROGRAMA_FORUM_BIB_OCT_2018.pdf" download="/media/upload/arxius/ForumBIB/PROGRAMA_FORUM_BIB_OCT_2018.pdf"><i class="fa fa-download"></i> Descargar Programa</a></p>
-            <table class="table table-bordered table-striped table-responsive" >
-              <thead class="">
-                <tr>
-                  <th colspan="2" scope="col" class="text-center">
-                    <p>PROGRAMA PRELIMINAR</p>
-                    <p>Venue: Àgora Room, CosmoCaixa</p>
-                  </th>
-                </tr>
-                <tr>
-                    <th scope="col" class="text-center">
-                      <p>Hora</p>
+  </div>
+ 
+  <div class="container-fluid bg-info">
+    <section class="container" id="programa">
+      <div class="well">
+          <div class="table-responsive-sm">
+              <h2 class="mb-4">Programa</h2>
+              <h3>Audiencia del Fórum</h3>
+              <p>Profesionales, académicos, asociaciones de pacientes</p>
+              <h3>Idioma:</h3>
+              <p>Castellano e inglés</p>
+              <p class="text-center"><a class="btn btn-success" href="/media/upload/arxius/ForumBIB/PROGRAMA_FORUM_BIB_OCT_2018.pdf" download="/media/upload/arxius/ForumBIB/PROGRAMA_FORUM_BIB_OCT_2018.pdf"><i class="fa fa-download"></i> Descargar Programa</a></p>
+              <table class="table table-bordered table-striped table-responsive" >
+                <thead class="">
+                  <tr>
+                    <th colspan="2" scope="col" class="text-center">
+                      <p>PROGRAMA PRELIMINAR</p>
+                      <p>Venue: Àgora Room, CosmoCaixa</p>
                     </th>
-                    <th scope="col" class="text-center">
-                        <p>Descripción</p>
-                      </th>
                   </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td class="text-center">
-                    9:00h<br>-<br>9:30h
-                  </td>
-                  <td >
-                    REGISTRATION
-                  </td>
-                </tr>
-                <tr>
-                  <td class="text-center">
-                    9:30h<br>-<br>10:00h
-                  </td>
-                  <td>
-                    <p>WELCOME</p>
-                    <ul>
-                      <li><em>Ana Ripoll, President BIB</em></li>
-                      <li><em>Jordi Portabella, Director of the Science Popularization and CosmoCaixa Area</em></li>
-                      <li><em>Àngels Chacon, Minister of Business and Knowledge, Government of Catalonia</em></li>
-                    </ul>
-                  </td>
-                </tr>
-                <tr >
-                  <td class="text-center">
-                    10:00h<br>-<br>11:00h
-                  </td>
-                  <td>
-                    <p>LECTURE: <strong>Using Networks to Link Genotype to Phenotype: A Bioinformatics Approach</strong></p>
-                    <ul>
-                      <li>John Quackenbush, Professor of Computational Biology and Bioinformatics, Harvard School of Public Health</li>
-                    </ul>
-                  </td>
-                </tr>
-                <tr class="table-secondary">
-                  <td class="text-center">
-                    11:00h<br>-<br>11:30h
-                  </td>
-                  <td>
-                    COFFEE-BREAK
-                  </td>
-                </tr>
-                <tr >
-                  <td class="text-center">
-                    11:30h<br>-<br>12:30h
-                  </td>
-                  <td>
-                    <p >PANEL 1: <strong>Bioinformatics prospects and realities in Precision Health</strong></p>
-                    <ul>
-                      <li><em>Arcadi Navarro, Secretary for Universities and Research, ICREA Research Professor, former director of the Population Genomics Node of the Spanish National Institute for Bioinformatics.</em></li>
-                      <li><em>Alfonso Valencia, Computational Biology Life Sciences Group Leader, Barcelona Supercomputing Center</em></li>
-                      <li><em>Yolanda Lupiáñez, Innovation & Digital Transformation Director - eHealth</em></li>
-                      <li><em>Miquel Vilardell, Catedrático de Medicina Interna, Universitat Autònoma de Barcelona</em></li>
-                    </ul>
-                    <p><em>Chair: Núria López-Bigas, ICREA Research Professor, UPF Assistant Professor of Biomedical Genomics</em></p>
-                  </td>
-                </tr>
-                <tr >
-                  <td class="text-center">
-                    12:30h<br>-<br>13:30h
-                  </td>
-                  <td>
-                    <p >PANEL 2: <strong>To share or not to share, ethical, societal and healthcare issues</strong></p>
-                    <ul>
-                      <li><em>Mabel Loza, Professor of Pharmacology and head of BioFarma pharmacology research group at the University of Santiago de Compostela</em></li>
-                      <li><em>Itziar de Lecuona, Tenure-Track Lecturer University of Barcelona; Assistant manager Bioethics and Law Observatory (OBD)</em></li>
-                      <li><em>Jordi Cruz, Deputy of the Spanish Federation for Rare Diseases (FEDER) in Catalonia</em></li>
-                      <li><em>Jesus Martrat, Privacy and Pharma Partner, Rousaud Costas Duran (RCD) </em></li>
-                    </ul>
-                    <p><em>Chair: Toni Dedéu, Director Agency for Healthcare Quality and Evaluation of Catalonia - AQuAS</em></p>
-                  </td>
-                </tr>
-                <tr class="table-secondary">
-                  <td class="text-center">
-                    14:00h<br>-<br>15:00h
-                  </td>
-                  <td>
-                    <p>LUNCH</p>
-                  </td>
-                </tr>
-                <tr >
-                  <td class="text-center">
-                    15:00h<br>-<br>16:00h
-                  </td>
-                  <td>
-                    <p >PANEL 3: <strong>Practical limitations to Frontier technologies</strong></p>
-                    <ul>
-                      <li><em>Toni Manzano, R&D Director at Bigfinite Inc</em></li>
-                      <li><em>Josep M. Martorell, Associate Director at Barcelona Supercomputing Center.</em></li>
-                      <li><em>Núria Oliver,  Director of Research in Data Science at Vodafone</em></li>
-                      <li><em>Sponsor (IMB / Microsoft?)</em></li>
-                    </ul>
-                    <p><em>Chair: Xavier Daura, ICREA Research Professor at Universitat Autònoma de Barcelona</em></p>
-                  </td>
-                </tr>
-                <tr >
-                  <td class="text-center">
-                    16:00h<br>-<br>17.00h
-                  </td>
-                  <td>
-                    <p >PANEL 4: <strong>Horizon Scan: Are we ready?</strong></p>
-                    <ul>
-                      <li><em>Albert Barberà, director general for Research and Innovation in Health, Government of Catalonia</em></li>
-                      <li><em>Guillem López-Casasnovas, Professor at Pompeu Fabra University and Barcelona Graduate School of Economics </em></li>
-                      <li><em>Jordi Camí Professor at Pompeu Fabra University in Barcelona and General Director of the Barcelona Biomedical Research Park (PRBB) and Pasqual Maragall Foundation for Alzheimer's Research</em></li>
-                      <li><em>Ana Ripoll, President of BioInformatics Barcelona</em></li>
-                      <li><em>Josep Tabernero, Head of the Medical Oncology Department of Vall d’Hebron University Hospital</em></li>
-                    </ul>
-                    <p><em>Chairs: Jordi Naval, Strategy Director at Biocat and Montse Daban, Science Policy and Internationalization, Secretariat for Universities and Research, Government of Catalonia</em></p>
-                  </td>
-                </tr>
-                <tr >
-                  <td class="text-center">
-                    17:00h<br>-<br>17.15h
-                  </td>
-                  <td>
-                    <p >WRAP-UP</p>
-                    <ul>
-                      <li><em>Jordi Naval, Strategy Director at Biocat</em></li>
-                    </ul>
-                    <br>
-                    <p >CLOSING</p>
-                    <ul>
-                      <li><em>Alba Vergés, Minister of Health, Government of Cataloniat</em></li>
-                    </ul>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-    </div>
-    
-  </section>
+                  <tr>
+                      <th scope="col" class="text-center">
+                        <p>Hora</p>
+                      </th>
+                      <th scope="col" class="text-center">
+                          <p>Descripción</p>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="text-center">
+                      9:00h<br>-<br>9:30h
+                    </td>
+                    <td >
+                      REGISTRATION
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="text-center">
+                      9:30h<br>-<br>10:00h
+                    </td>
+                    <td>
+                      <p>WELCOME</p>
+                      <ul>
+                        <li><em>Ana Ripoll, President BIB</em></li>
+                        <li><em>Jordi Portabella, Director of the Science Popularization and CosmoCaixa Area</em></li>
+                        <li><em>Àngels Chacon, Minister of Business and Knowledge, Government of Catalonia</em></li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr >
+                    <td class="text-center">
+                      10:00h<br>-<br>11:00h
+                    </td>
+                    <td>
+                      <p>LECTURE: <strong>Using Networks to Link Genotype to Phenotype: A Bioinformatics Approach</strong></p>
+                      <ul>
+                        <li>John Quackenbush, Professor of Computational Biology and Bioinformatics, Harvard School of Public Health</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr class="table-secondary">
+                    <td class="text-center">
+                      11:00h<br>-<br>11:30h
+                    </td>
+                    <td>
+                      COFFEE-BREAK
+                    </td>
+                  </tr>
+                  <tr >
+                    <td class="text-center">
+                      11:30h<br>-<br>12:30h
+                    </td>
+                    <td>
+                      <p >PANEL 1: <strong>Bioinformatics prospects and realities in Precision Health</strong></p>
+                      <ul>
+                        <li><em>Arcadi Navarro, Secretary for Universities and Research, ICREA Research Professor, former director of the Population Genomics Node of the Spanish National Institute for Bioinformatics.</em></li>
+                        <li><em>Alfonso Valencia, Computational Biology Life Sciences Group Leader, Barcelona Supercomputing Center</em></li>
+                        <li><em>Yolanda Lupiáñez, Innovation & Digital Transformation Director - eHealth</em></li>
+                        <li><em>Miquel Vilardell, Catedrático de Medicina Interna, Universitat Autònoma de Barcelona</em></li>
+                      </ul>
+                      <p><em>Chair: Núria López-Bigas, ICREA Research Professor, UPF Assistant Professor of Biomedical Genomics</em></p>
+                    </td>
+                  </tr>
+                  <tr >
+                    <td class="text-center">
+                      12:30h<br>-<br>13:30h
+                    </td>
+                    <td>
+                      <p >PANEL 2: <strong>To share or not to share, ethical, societal and healthcare issues</strong></p>
+                      <ul>
+                        <li><em>Mabel Loza, Professor of Pharmacology and head of BioFarma pharmacology research group at the University of Santiago de Compostela</em></li>
+                        <li><em>Itziar de Lecuona, Tenure-Track Lecturer University of Barcelona; Assistant manager Bioethics and Law Observatory (OBD)</em></li>
+                        <li><em>Jordi Cruz, Deputy of the Spanish Federation for Rare Diseases (FEDER) in Catalonia</em></li>
+                        <li><em>Jesus Martrat, Privacy and Pharma Partner, Rousaud Costas Duran (RCD) </em></li>
+                      </ul>
+                      <p><em>Chair: Toni Dedéu, Director Agency for Healthcare Quality and Evaluation of Catalonia - AQuAS</em></p>
+                    </td>
+                  </tr>
+                  <tr class="table-secondary">
+                    <td class="text-center">
+                      14:00h<br>-<br>15:00h
+                    </td>
+                    <td>
+                      <p>LUNCH</p>
+                    </td>
+                  </tr>
+                  <tr >
+                    <td class="text-center">
+                      15:00h<br>-<br>16:00h
+                    </td>
+                    <td>
+                      <p >PANEL 3: <strong>Practical limitations to Frontier technologies</strong></p>
+                      <ul>
+                        <li><em>Toni Manzano, R&D Director at Bigfinite Inc</em></li>
+                        <li><em>Josep M. Martorell, Associate Director at Barcelona Supercomputing Center.</em></li>
+                        <li><em>Núria Oliver,  Director of Research in Data Science at Vodafone</em></li>
+                        <li><em>Sponsor (IMB / Microsoft?)</em></li>
+                      </ul>
+                      <p><em>Chair: Xavier Daura, ICREA Research Professor at Universitat Autònoma de Barcelona</em></p>
+                    </td>
+                  </tr>
+                  <tr >
+                    <td class="text-center">
+                      16:00h<br>-<br>17.00h
+                    </td>
+                    <td>
+                      <p >PANEL 4: <strong>Horizon Scan: Are we ready?</strong></p>
+                      <ul>
+                        <li><em>Albert Barberà, director general for Research and Innovation in Health, Government of Catalonia</em></li>
+                        <li><em>Guillem López-Casasnovas, Professor at Pompeu Fabra University and Barcelona Graduate School of Economics </em></li>
+                        <li><em>Jordi Camí Professor at Pompeu Fabra University in Barcelona and General Director of the Barcelona Biomedical Research Park (PRBB) and Pasqual Maragall Foundation for Alzheimer's Research</em></li>
+                        <li><em>Ana Ripoll, President of BioInformatics Barcelona</em></li>
+                        <li><em>Josep Tabernero, Head of the Medical Oncology Department of Vall d’Hebron University Hospital</em></li>
+                      </ul>
+                      <p><em>Chairs: Jordi Naval, Strategy Director at Biocat and Montse Daban, Science Policy and Internationalization, Secretariat for Universities and Research, Government of Catalonia</em></p>
+                    </td>
+                  </tr>
+                  <tr >
+                    <td class="text-center">
+                      17:00h<br>-<br>17.15h
+                    </td>
+                    <td>
+                      <p >WRAP-UP</p>
+                      <ul>
+                        <li><em>Jordi Naval, Strategy Director at Biocat</em></li>
+                      </ul>
+                      <br>
+                      <p >CLOSING</p>
+                      <ul>
+                        <li><em>Alba Vergés, Minister of Health, Government of Cataloniat</em></li>
+                      </ul>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+      </div>
+      
+    </section>
+  </div>
+  
   <section class="container" id="donde">
     
     <div class="">
-      <div class="text-center row">
+      <div class="row">
         <div class="col-sm-3">
           <h3 class="">Event Location</h3>
           <address>
-            <p>Eardenia<br> The Grand Hall<br> House # 08, Road #52, Street<br> Phone: +1159t3764<br> Email: example@mail.com</p>
+            <p>CosmoCaixa Barcelona<br> Carrer d'Isaac Newton, 26<br> 08022 Barcelona</p>
           </address>
         </div>
-        <iframe class="col-sm-9" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11976.748386859652!2d2.1147906407208286!3d41.370019635235614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a49918dac3289b%3A0xfde44aeb93e70257!2sRambla+Just+Oliveras!5e0!3m2!1ses!2ses!4v1525775285269" width="500" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div class="col-sm-9">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.2094417005746!2d2.129362315426589!3d41.41297197926188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4981a24a1d9cd%3A0x20158071eb4f77f3!2sCosmoCaixa+Barcelona!5e0!3m2!1ses!2ses!4v1528368074687" width="100%" height="320" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+        </div>
       </div>
-    </div>
+
+
         <div class=""id="slider">
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">

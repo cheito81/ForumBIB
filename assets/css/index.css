@@ -1,6 +1,6 @@
 body{
   position: relative;
- background-color: rgba(116, 192, 175);
+ /*background-color: rgba(116, 192, 175);*/
 }
 /*
 background-color: rgba(85, 84, 88); negro 
@@ -46,7 +46,7 @@ background-color: rgba(85, 84, 88); negro
   min-height: 100vh;
   position: relative;
   text-align: center;
-  background: url(../img/bioinformatics/mano-dna.jpg) no-repeat center center/cover;
+  background: url(../img/bioinformatics/technology-298256_1920.jpg) no-repeat center center/cover;
   display: table;
 }
 .site-header::before {
@@ -94,8 +94,8 @@ background-color: rgba(85, 84, 88); negro
           transition: all 0.2s linear 0s;
 }
 a.active {
+  
   color: #56B156 !important;
-  border-bottom: 1px solid;
 }
 
 section{
@@ -104,11 +104,10 @@ section{
   padding-left: 34px !important;
   padding-right: 34px !important;
   background: #fff;
-  margin-bottom: 20px;
+  
 }
 nav{
- 
-  background:rgb(211, 209, 218) !important;
+  background:transparent !important;
 }
 .nav-link{
   color: rgba(116, 192, 175) !important;
@@ -126,9 +125,39 @@ nav{
  max-height: 500px;
 }
 #slider{
-  margin-top: 64px;
+  margin-top: 15px;
 }
 .logo{
   padding-top: 0px;
   max-height: 64px;
+}
+#Descripción{
+  
+}
+
+.card.hovercard .cardheader {
+  background: url("../img/bioinformatics/ordenador.jpg");
+  background-size: cover;
+  height: 135px;
+}
+
+.card.hovercard .avatar {
+  position: relative;
+  top: -50px;
+  margin-bottom: -50px;
+}
+
+.card.hovercard .avatar img {
+  width: 100px;
+  height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+}
+.fotoDescripcion{
+  float: left;
+  max-height: 300px;
+}
+#textDescription{
+  
+  position: relative;
 }
