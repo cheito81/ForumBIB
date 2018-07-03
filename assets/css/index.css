@@ -80,21 +80,23 @@ background-color: rgba(85, 84, 88); negro
 }
 .site-header .intro h1 {
   margin-top: 0px;
-  font-size: 30px;
+  font-size: 60px;
 }
 .site-header .intro p {
   font-size: 20px;
   margin-bottom: 10px;
   font-weight: 300;
 }
+.iconToggle{
+  color: black !important;
+}
 .navbar-solid {
-  background-color: #000 !important;
+  color: #000 !important;
   padding: 0 !important;
-  -webkit-transition: all 0.2s linear 0s;
-          transition: all 0.2s linear 0s;
+  -webkit-transition: all 0.5s linear 0s;
+          transition: all 0.5s linear 0s;
 }
 a.active {
-  
   color: #56B156 !important;
 }
 
@@ -104,25 +106,31 @@ section{
   padding-left: 34px !important;
   padding-right: 34px !important;
   background: #fff;
-  
 }
 nav{
   background:transparent !important;
+  font-weight: bold;
+  color: rgba(116, 192, 175);
 }
 .nav-link{
   color: rgba(116, 192, 175) !important;
 }
 
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .aMenu{
+      color: rgba(116, 192, 175);
+    }
+  }
+
 .carousel-item {
   max-width: 100%;
   min-width: 100%;
-  min-height: 500px;
- max-height: 500px;
+ max-height: 400px;
  background-color: #000;
 }
 .carousel-item >img {
- min-height: 500px;
- max-height: 500px;
+ 
+ max-height: 400px;
 }
 #slider{
   margin-top: 15px;
@@ -132,9 +140,12 @@ nav{
   max-height: 64px;
 }
 #Descripción{
-  
+ 
 }
 
+.posrel{
+position: relative;
+}
 .card.hovercard .cardheader {
   background: url("../img/bioinformatics/ordenador.jpg");
   background-size: cover;
@@ -153,11 +164,69 @@ nav{
   max-width: 100px;
   max-height: 100px;
 }
-.fotoDescripcion{
-  float: left;
-  max-height: 300px;
+.fondoVerde{
+  background-color: #5cb574;
 }
-#textDescription{
-  
-  position: relative;
+.fondoAzul{
+  background-color: #6dc1bb;
 }
+.customTable{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #add9ad;
+}
+table th , table td, td {
+  border: 1px solid #add9ad;
+  font-size: inherit;
+  margin: 0;
+  overflow: visible;
+  padding: .5em 1em;
+  border-collapse: collapse;
+}
+.table thead th {
+  vertical-align: bottom;
+  background-color: #add9ad;
+  border-bottom: 1px solid #add9ad;
+  border-top: none;
+  border-collapse: collapse;
+}
+.table{
+  color:#4a4a4a;
+}
+.table p{
+  margin: 0px;
+}
+.table tr:hover {
+  background-color: #e8f8e8;
+}
+.facts i {
+  color: #fff;
+  font-size: 4em;
+}
+.facts h3 {
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+}
+.bg-image-1 {
+  background: url(../img/cosmo-caixa/CosmoCaixaEspais147.jpg) no-repeat center center/cover;
+  min-height: 300px;
+}
+.imgDesc1{
+  max-height: 200px;
+}
+/*imagenes organizodores*/
+.font-bold {
+  font-weight: bold;
+}
+.imgBIBorg{
+  max-height: 118px;
+}
+.imgBiocatOrg{
+  max-height: 103px;
+}
+.imgCaixaOrg{
+  max-height: 113px;
+}
+/*fin imagenes organizodores*/

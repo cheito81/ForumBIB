@@ -5,7 +5,13 @@ $(document).ready(function(){
     e.preventDefault();
     
     var href = $(this).attr('href');
-    $('html, body').animate({ scrollTop : $( href ).offset().top-40 }, 'ease-in');
+    console.log(href);
+    if (href!='#inicio') {
+        $('html, body').animate({ scrollTop : ($( href ).offset().top)-45 }, 'slow');
+    } else {
+        $('html, body').animate({ scrollTop : '0' }, 'ease-in');
+    }
+    
     });
    
 });
