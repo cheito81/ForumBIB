@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/bootstrap-4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/bootstrap-4/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
-    <script type="text/javascript" src="assets/bootstrap-4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap-4/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="assets/css/fontawesome.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="assets/js/main.js"></script>
     
     <title>Forum BIB</title>
   </head>
@@ -19,30 +19,30 @@
   <body data-spy="scroll" data-target=".navbar" data-offset="50" >
     <nav class="navbar navbar-expand-lg fixed-top" id="site-nav">
       <a class="navbar-brand text-uppercase logo" href="http://www.bioinformaticsbarcelona.eu/" alt="Logo BIB"><img src="assets/img/logoBib.jpg" class="img-fluid rounded logo" alt=""></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fa fa-bars iconToggle"></i>
+      <button class="navbar-toggler btnToggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <img src="assets/img/bioinformatics/nav-toggle.png" alt="">
       </button>
       <div class="collapse navbar-collapse justify-content-md-end" id="navbarNavDropdown">
         <ul class="navbar-nav mx-4">
-            <li class="nav-item mx-3">
+            <li class="nav-item mx-2">
                 <a class="nav-link text-uppercase" href="#inicio"><i class="fa fa-home fa-fw"></i>Inicio</a>
               </li>
-          <li class="nav-item mx-3">
+          <li class="nav-item mx-2">
             <a class="nav-link text-uppercase" href="#Descripción" id="DescripciónMenu">Descripción</a>
           </li>
-          <li class="nav-item mx-3">
+          <li class="nav-item mx-2">
             <a class="nav-link text-uppercase aMenu" href="#ponentes" id="ponentMenu" id="PonentesMenu">Ponentes</a>
           </li>
-          <li class="nav-item mx-3">
+          <li class="nav-item mx-2">
             <a class="nav-link text-uppercase" href="#programa" id="ProgramaMenu">Programa</a>
           </li>
-          <li class="nav-item mx-3">
+          <li class="nav-item mx-2">
             <a class="nav-link text-uppercase" href="#donde" id="DondeMenu">Donde</a>
           </li>
-          <li class="nav-item mx-3">
+          <li class="nav-item mx-2">
               <a class="nav-link text-uppercase" href="#contacto" id="contactoMenu">Contacto</a>
             </li>
-        <li class="nav-item mx-3">
+        <li class="nav-item mx-2">
           <a class="nav-link text-uppercase" href="#Partners" id="PartnersMenu">Partners</a>
         </li>
       </ul>
@@ -71,7 +71,7 @@
             <div class="col-sm-4">
             
                 <i class="fa fa-bullhorn"></i>
-                <h3>20<br>Ponentes</h3>
+                <h3>23<br>Ponentes</h3>
             
             </div>
         </div>
@@ -86,22 +86,50 @@
             </div>
             <div  id="textDescription1" class="posrel">
               <img src="assets/img/cosmo-caixa/gradasPersonasAna(recortada).jpg" alt="" class="mr-3 mb-2 img-fluid float-left imgDesc1">
-              <p class="text-left">El acceso a ingentes cantidades de datos genómicos ha revolucionado la biomedicina y ha dibujado vías prometedoras para la detección, diagnóstico y tratamiento de numerosas enfermedades complejas. Sin embargo, ha implicado también la aparición de grandes retos tecnológicos, éticos, sociales, legales y asistenciales.</p>
-              <p class="text-left">Las predicciones acerca del papel de la medicina personalizada en el futuro más inmediato parece que no se van a cumplir del modo previsto. De una parte, nuestra capacidad de generar datos es costosa y no se da al mismo ritmo que nuestra capacidad de gestionarlos y almacenarlos. Así, la medicina personalizada se podría ver limitada a los países más opulentos. Por otra parte, tampoco nuestra capacidad para interpretar estos datos está satisfaciendo las expectativas creadas. Es decir, el reto en la medicina personalizada viene menos de los avances en producción de datos ómicos que de nuestra capacidad de gestionarlos, analizarlos e interpretarlos.</p>
+              <p class="text-left">El concepto de medicina personalizada y las expectativas que ha generado se basan en los avances en
+                  las tecnologías de alta generación de datos y en las ciencias ómicas que han impulsado. Sin embargo,
+                  existen enormes retos tecnológicos, éticos, sociales, legales y asistenciales que pueden dificultar el
+                  cumplimiento de las predicciones hechas al respecto de la medicina personalizada y su capacidad de
+                  revolucionar los sistemas de salud y de impactar en la sociedad proporcionándole una mayor
+                  expectativa y calidad de vida. Las limitaciones tecnológicas en lo relativo a la gestión y almacenaje de
+                  los datos de salud, así como a nuestra capacidad para interpretarlos nos obligan a revisar las
+                  expectativas creadas. Es por ello que la promesa de la medicina, o mejor, de la salud personalizada se
+                  puede ver matizada por la capacidad que tenemos de aprovechar sus enormes potencialidades.</p>
             </div> 
             <div  id="textDescription2">
-              <p class="text-left">Es por ello que la promesa de la medicina, o mejor, de la salud personalizada se puede ver matizada por la capacidad que tenemos de aprovechar sus enormes potencialidades.</p>
-              <p class="text-left">¿Cuál es el papel de la Bioinformática en este escenario? ¿Qué capacidad tiene esta disciplina para resolver algunos de los retos mencionados? <br>¿Qué limitaciones plantea? ¿De quién son los datos genómicos que han de permitir alcanzar grandes retos médicos?  ¿Es posible limitar su utilización con fines de investigación que busca un impacto positivo en la salud humana?</p>
+              <p class="text-left">¿Cuál es el papel de la bioinformática en este escenario? ¿Qué capacidad tiene esta disciplina para
+                  resolver algunos de los retos mencionados? ¿Qué limitaciones plantea? ¿A quién pertenecen los datos
+                  de salud que han de permitir alcanzar grandes hitos médicos? ¿Cómo podemos limitar su utilización a
+                  fines que persiguen un impacto positivo en la salud humana?</p>
+              <p class="text-left">La Asociación Bioinformatics Barcelona (BIB) propone plantear estas preguntas y analizar las posibles
+                  respuestas en un foro público donde los diferentes agentes implicados en la materia se verán
+                  representados, desde la administración y el sector privado a las asociaciones de pacientes, los gestores
+                  de grandes infraestructuras de investigación, y los expertos de los ámbitos regulatorios y económicos.</p>
             
-              <p class="text-left">La Asociación Bioinformatics Barcelona (BIB) propone plantear estas preguntas y analizar las posibles respuestas en un foro público donde los diferentes agentes implicados en la materia se verán representados, des de la administración y el sector privado a las asociaciones de pacientes, los gestores de grandes infraestructuras de investigación o académicos de los ámbitos regulatorios y económicos.</p>
-              <p class="text-left">El foro, que se llevará a cabo el día 24 de octubre de 2018 en el CosmoCaixa de Barcelona, contará con la participación de John Quackenbush, Profesor de Biología Computacional y Bioinformática en la Harvard School of Public Health. Entre otros temas, se discutirán en formato de mesa redonda las expectativas y realidades de la bioinformática en la salud de precisión, los aspectos éticos y morales de la compartición de datos, y los avances tecnológicos y sus limitaciones. Asimismo está previsto un ejercicio de proyección de la situación actual para determinar el nivel de preparación que tenemos como sociedad, como comunidad científica y tecnológica, y como país, para el futuro de la medicina personalizada y de las personas y disciplinas que han de facilitar su desarrollo y aplicación.</p>
-              <p class="text-left">La asistencia al FORUM BIB se realizará por invitación personalizada.</p>
+              <p class="text-left">El foro, organizado por la Asociación Bioinformatics Barcelona, con la colaboración de Biocat y de la
+                  Fundación Bancaria “la Caixa”, se llevará a cabo el día 24 de octubre de 2018 en el CosmoCaixa de
+                  Barcelona, y contará con la participación de John Quackenbush, Profesor de Biología Computacional y
+                  Bioinformática en el Dana-Farber Cancer Institute y la Harvard TH Chan School of Public Health, como
+                  conferenciante invitado.</p>
+              <p class="text-left">Asimismo, se discutirán en formato de mesa redonda las expectativas y realidades de la bioinformática
+                  en la salud de precisión, los aspectos éticos y morales de la compartición de datos, y los avances
+                  tecnológicos y sus limitaciones. El programa incluye un ejercicio de proyección futura a partir de la
+                  situación actual, con el fin de proponer recomendaciones prácticas, tecnológicas y formativas, entre
+                  otras, para la comunidad científica y tecnológica, y la sociedad en general, de cara al correcto desarrollo
+                  y aplicación de la medicina personalizada y el cumplimiento de las expectativas que ésta ha generado.</p>
+
+              <p class="text-left">Esta iniciativa se enmarca en la misión del BIB de convertirse en un nodo catalizador de iniciativas que
+                  respondan a las necesidades de la comunidad bioinformática, a la vez que un actor global que ha de
+                  contribuir a afrontar los retos de la medicina del futuro.</p>
+
+              <p class="text-left">La asistencia a este fórum es por invitación.</p>
+                  
             </div>
     </section>
   </div>
 
   <section>
-      <div class="bg-image-1 img-fluid">
+      <div class="bg-image-2 img-fluid">
       </div>
   </section>
 
@@ -111,7 +139,7 @@
       <div class="row ">
 
         <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
-          <div class="card hovercard h-100">
+          <div class="card hovercard h-100 text-center">
             <div class="cardheader">
   
             </div>
@@ -130,7 +158,7 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
-          <div class="card hovercard h-100">
+          <div class="card hovercard h-100 text-center">
             <div class="cardheader">
   
             </div>
@@ -149,7 +177,7 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
-          <div class="card hovercard h-100">
+          <div class="card hovercard h-100 text-center">
             <div class="cardheader">
   
             </div>
@@ -168,7 +196,7 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
-          <div class="card hovercard h-100">
+          <div class="card hovercard h-100 text-center">
             <div class="cardheader">
   
             </div>
@@ -187,7 +215,7 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
-          <div class="card hovercard h-100">
+          <div class="card hovercard h-100 text-center">
             <div class="cardheader">
   
             </div>
@@ -206,7 +234,7 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
-          <div class="card hovercard h-100">
+          <div class="card hovercard h-100 text-center">
             <div class="cardheader">
   
             </div>
@@ -225,7 +253,7 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
-          <div class="card hovercard h-100">
+          <div class="card hovercard h-100 text-center">
             <div class="cardheader">
   
             </div>
@@ -244,7 +272,7 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
-          <div class="card hovercard h-100">
+          <div class="card hovercard h-100 text-center">
             <div class="cardheader">
   
             </div>
@@ -263,7 +291,7 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
-          <div class="card hovercard h-100">
+          <div class="card hovercard h-100 text-center">
             <div class="cardheader">
   
             </div>
@@ -282,7 +310,7 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
-          <div class="card hovercard h-100">
+          <div class="card hovercard h-100 text-center">
             <div class="cardheader">
   
             </div>
@@ -301,7 +329,7 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
-          <div class="card hovercard h-100">
+          <div class="card hovercard h-100 text-center">
             <div class="cardheader">
   
             </div>
@@ -320,7 +348,7 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
-          <div class="card hovercard h-100">
+          <div class="card hovercard h-100 text-center">
             <div class="cardheader">
   
             </div>
@@ -339,7 +367,7 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
-          <div class="card hovercard h-100">
+          <div class="card hovercard h-100 text-center">
             <div class="cardheader">
   
             </div>
@@ -358,7 +386,7 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
-          <div class="card hovercard h-100">
+          <div class="card hovercard h-100 text-center">
             <div class="cardheader">
   
             </div>
@@ -377,7 +405,7 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
-          <div class="card hovercard h-100">
+          <div class="card hovercard h-100 text-center">
             <div class="cardheader">
   
             </div>
@@ -396,7 +424,7 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
-          <div class="card hovercard h-100">
+          <div class="card hovercard h-100 text-center">
             <div class="cardheader">
   
             </div>
@@ -415,7 +443,7 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
-          <div class="card hovercard h-100">
+          <div class="card hovercard h-100 text-center">
             <div class="cardheader">
   
             </div>
@@ -434,7 +462,7 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
-          <div class="card hovercard h-100">
+          <div class="card hovercard h-100 text-center">
             <div class="cardheader">
   
             </div>
@@ -453,7 +481,7 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
-          <div class="card hovercard h-100">
+          <div class="card hovercard h-100 text-center">
             <div class="cardheader">
   
             </div>
@@ -472,7 +500,7 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-xl-3 mb-4 ">
-          <div class="card hovercard h-100">
+          <div class="card hovercard h-100 text-center">
             <div class="cardheader">
   
             </div>
@@ -498,24 +526,20 @@
     <section class="container " id="programa">
         <h1 class="mb-4">PROGRAMA</h1>
         <div class="table-responsive-sm">
-              <h3>Audiencia del Fórum</h3>
-              <p>Profesionales, académicos, asociaciones de pacientes</p>
-              <h3>Idioma:</h3>
-              <p>Castellano e inglés</p>
-              <p class=""><a class="btn btn-info" href="/media/upload/arxius/ForumBIB/PROGRAMA_FORUM_BIB_OCT_2018.pdf" download="/media/upload/arxius/ForumBIB/PROGRAMA_FORUM_BIB_OCT_2018.pdf"><i class="fa fa-download"></i> Descargar Programa</a></p>
+              <p class=""><a class="btn btn-info" href="assets/files/4draft_program_forum_BIB.pdf" download="assets/files/4draft_program_forum_BIB.pdf"><i class="fa fa-download"></i> Descargar Programa</a></p>
               <table class="table table-responsive customTable" >
                 <thead class="">
                   <tr calss="tableTH">
                     <th colspan="2" scope="col" class="">
-                      <p>PROGRAMA PRELIMINAR</p>
-                      <p>Venue: Àgora Room, CosmoCaixa Barcelona</p>
+                      <h3 class="text-center">PROGRAMA PRELIMINAR</h3>
+                      <p class="text-center">Venue: Àgora Room, CosmoCaixa Barcelona</p>
                     </th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td class="">
-                      <p class="w-100"> 9:00h - 9:30h</p>
+                      <p class="w-100"> 9:00h&nbsp;-&nbsp;9:30h</p>
                     </td>
                     <td >
                       REGISTRATION
@@ -523,7 +547,7 @@
                   </tr>
                   <tr>
                     <td class="">
-                      9:30h<br>-<br>10:00h
+                        9:30h&nbsp;-&nbsp;10:00h
                     </td>
                     <td>
                       <p>WELCOME</p>
@@ -536,7 +560,7 @@
                   </tr>
                   <tr >
                     <td class="">
-                      10:00h<br>-<br>11:00h
+                      10:00h&nbsp;-&nbsp;11:00h
                     </td>
                     <td>
                       <p>LECTURE: <strong>Using Networks to Link Genotype to Phenotype: A Bioinformatics Approach</strong></p>
@@ -547,7 +571,7 @@
                   </tr>
                   <tr class="table-secondary">
                     <td class="">
-                      11:00h<br>-<br>11:30h
+                      11:00h&nbsp;-&nbsp;11:30h
                     </td>
                     <td>
                       COFFEE-BREAK
@@ -555,7 +579,7 @@
                   </tr>
                   <tr >
                     <td class="">
-                      11:30h<br>-<br>12:30h
+                      11:30h&nbsp;-&nbsp;12:30h
                     </td>
                     <td>
                       <p >PANEL 1: <strong>Bioinformatics prospects and realities in Precision Health</strong></p>
@@ -570,7 +594,7 @@
                   </tr>
                   <tr >
                     <td class="">
-                      12:30h<br>-<br>13:30h
+                      12:30h&nbsp;-&nbsp;13:30h
                     </td>
                     <td>
                       <p >PANEL 2: <strong>To share or not to share, ethical, societal and healthcare issues</strong></p>
@@ -585,7 +609,7 @@
                   </tr>
                   <tr class="table-secondary">
                     <td class="">
-                      14:00h<br>-<br>15:00h
+                      14:00h&nbsp;-&nbsp;15:00h
                     </td>
                     <td>
                       <p>LUNCH</p>
@@ -593,7 +617,7 @@
                   </tr>
                   <tr >
                     <td class="">
-                      15:00h<br>-<br>16:00h
+                      15:00h&nbsp;-&nbsp;16:00h
                     </td>
                     <td>
                       <p >PANEL 3: <strong>Practical limitations to Frontier technologies</strong></p>
@@ -608,7 +632,7 @@
                   </tr>
                   <tr >
                     <td class="">
-                      16:00h<br>-<br>17.00h
+                      16:00h&nbsp;-&nbsp;17:00h
                     </td>
                     <td>
                       <p >PANEL 4: <strong>Horizon Scan: Are we ready?</strong></p>
@@ -624,7 +648,7 @@
                   </tr>
                   <tr >
                     <td class="">
-                      17:00h<br>-<br>17.15h
+                      17:00h&nbsp;-&nbsp;17:15h
                     </td>
                     <td>
                       <p >WRAP-UP</p>
@@ -700,15 +724,24 @@
 
   <div class="container-fluid">
     <section class="container " id="contacto">
-        <div class="row">
+        <div class="row justify-content-md-center">
             <div class="col-sm-3">
               <h1>CONTACTO</h1>
             </div>
-            <div class="col-sm-9">
+            <div class="col-sm-9 ">
+              <div class="contacto p-5">
                 <address>
-                    <p>"Casa Convalescència" Building <br>C/ Sant Antoni Mª Claret, 171 08041 Barcelona (Spain)<br>Ph: +34 637856902 </p>
+                    <p>"Casa Convalescència" Edificio <br>C/ Sant Antoni Mª Claret, 171 <br>08041 Barcelona (Spain)<br>Tlf: +34 637856902 </p>
                 </address>
-                <p>Email: <a href="mailto:comunicacio@bioinformaticsbarcelona.eu">comunicacio@bioinformaticsbarcelona.eu</a><br>Web:   <a href="http://bioinformaticsbarcelona.eu" "email me">bioinformaticsbarcelona.eu</a><br>La asistencia al FORUM BIB se realizará por invitación personalizada.</p>
+                Email: <a href="mailto:comunicacio@bioinformaticsbarcelona.eu">comunicacio@bioinformaticsbarcelona.eu</a><br>
+                Web:   <a href="http://bioinformaticsbarcelona.eu" "email me">bioinformaticsbarcelona.eu</a>
+                
+              </div>
+            </div>
+            <div class="col-sm-12 mt-4">
+                <div class="alert alert-info text-center">
+                    La asistencia al FORUM BIB se realizará por invitación personalizada.
+                </div>
             </div>
           </div>
     </section>
@@ -750,7 +783,7 @@
                 <hr />
                 <h4 class="font-bold mt-5">ORGANIZADORES</h4>
                 <div class="row justify-content-center">
-                  <div class="small-4 large-4  mx-4" ><a href="http://www.bioinformaticsbarcelona.eu"><img class="imgBIBorg" alt="BIB" src="assets/img/organizadores/BIB.png" /></a></div>
+                  <div class="small-4 large-4  mx-4" ><a href="http://www.bioinformaticsbarcelona.eu"><img class="imgBIBorg" alt="BIB" src="assets/img/bioinformatics/logo-bib-vertical.svg" /></a></div>
                   <div class="small-4 large-4  mx-4" ><a href="http://www.biocat.cat/es"><img class="imgBiocatOrg" alt="biocat" src="assets/img/organizadores/biocat.png" /></a></div>
                   <div class="small-4 large-4  mx-4" ><a href="https://obrasociallacaixa.org/es"><img class="imgCaixaOrg" alt="Obra fundaçio la Caixa" src="assets/img/organizadores/caixa.png" /></a></div>
                 </div>
@@ -758,43 +791,18 @@
   </div>
 
   <div class="footer bg-light">
-    <div class="container">
-      <div class="row">
-        <div class="  col-md-3 ">
-          <h3> Nuestra empresa</h3>
-          <ul>
-            <li> <a href="#"> ¿Quiénes somos?  </a> </li>
-            <li> <a href="#"> Trabaja con nosotros  </a> </li>
-            <li> <a href="#"> Encuentra tu tienda </a> </li>
-          </ul>
-        </div>
-        <div class="  col-md-3 ">
-          <h3> Servicios </h3>
-          <ul>
-            <li> <a href="#"> Tipos de entrega </a> </li>
-            <li> <a href="#"> Instalaciones y servicios  </a> </li>
-            <li> <a href="#"> Solución para empresas   </a> </li>
-            <li> <a href="#"> Financiación </a> </li>
-          </ul>
-        </div>
-        <div class="  col-md-3 ">
-          <h3> ¿Te ayudamos? </h3>
-          <ul>
-            <li> <a href="#"> Contacto </a> </li>
-            <li> <a href="#"> Preguntas frecuentes  </a> </li>
-            <li> <a href="#"> Gestiona tu factura </a> </li>
-            <li> <a href="#"> Tarifas y políticas de envío  </a> </li>
-          </ul>
-        </div>
-        <div class="  col-md-3 ">
-          <h3> Ofertas y campañas </h3>
-          <ul>
-            <li> <a href="#"> Newsletter </a> </li>
-            <li> <a href="#"> Folleto y ofertas </a> </li>
-          </ul>
-        </div>
-      </div>
+    <div class="container text-center">
+          <a href="http://www.bioinformaticsbarcelona.eu" class="mb-4"><img class="imgBIBorg m-4" alt="BIB" src="assets/img/bioinformatics/logo-bib-vertical.svg" /></a>
+          <p class="mb-4">
+            <b>Bioinformatics Barcelona Association (BIB)</b> <br>
+            “Casa Convalescència” C/ Sant Antoni Mª Claret, 171 · 08041 · Barcelona (Spain)
+        ·
+            Phone: +34 637856902  ·
+
+            Email: <a href="mailto:info@bioinformaticsbarcelona.eu">info@bioinformaticsbarcelona.eu</a>
+          </p>
     </div>
   </div>
+
 </body>
 </html>
