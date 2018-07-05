@@ -3,6 +3,10 @@ body{
   color: #4a4a4a;
  /*background-color: rgba(116, 192, 175);*/
 }
+nav{
+  margin : 0%;
+  padding: 0%;
+}
 /*
 background-color: rgba(85, 84, 88); negro 
  background-color: rgba(116, 192, 175); azul 
@@ -105,7 +109,7 @@ section{
 nav{
   background:transparent !important;
   font-weight: bold;
-  color: rgba(116, 192, 175);
+  color: rgba(116, 192, 175) !important;
   -webkit-transition: all 0.8s linear 0s;
   transition: all 0.8s linear 0s;
 }
@@ -116,18 +120,19 @@ nav{
 .carousel-item {
   max-width: 100%;
   min-width: 100%;
- max-height: 400px;
+ max-height: 450px;
  background-color: #000;
 }
 .carousel-item >img {
  
- max-height: 400px;
+ max-height: 450px;
 }
 #slider{
   margin-top: 15px;
 }
 .logo{
   padding-top: 0px;
+  padding: 0.12rem !important;
   max-height: 64px;
 }
 .posrel{
@@ -212,7 +217,7 @@ table th , table td, td {
   font-weight: bold;
 }
 .imgBIBorg{
-  max-height: 118px;
+  max-height: 127px;
 }
 .imgBiocatOrg{
   max-height: 103px;
@@ -223,7 +228,6 @@ table th , table td, td {
 /*fin imagenes organizodores*/
 
 .footer{
-  background-color: #F1F1F1;
   font-size: 16px;
 }
 .contacto{
