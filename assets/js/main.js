@@ -5,11 +5,10 @@ $(document).ready(function(){
     e.preventDefault();
     
     var href = $(this).attr('href');
-    console.log(href);
     if (href!='#inicio') {
         $('html, body').animate({ scrollTop : ($( href ).offset().top)-45 }, 'slow');
     } else {
-        $('html, body').animate({ scrollTop : '0' }, 'ease-in');
+        $('html, body').animate({ scrollTop : '0' }, 'slow');
     }
     
     });
@@ -24,14 +23,14 @@ $('a').click(function (e) {
 */
 
 $(window).scroll(function(){
-	handleTopNavAnimation();
+	navAnimation();
 });
 
 $(window).load(function(){
-	handleTopNavAnimation();
+	navAnimation();
 });
 
-function handleTopNavAnimation() {
+function navAnimation() {
 	var top=$(window).scrollTop();
 
 	if(top>400){

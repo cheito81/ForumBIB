@@ -97,6 +97,7 @@ background-color: rgba(85, 84, 88); negro
 }
 a.active {
   color: #56B156 !important;
+  border-bottom: 1px solid;
 }
 
 section{
@@ -115,6 +116,7 @@ nav{
 }
 .nav-link{
   color: rgba(116, 192, 175) !important;
+  
 }
 
 .carousel-item {
@@ -210,7 +212,7 @@ table th , table td, td {
   min-height: 300px;
 }
 .imgDesc1{
-  max-height: 200px;
+  max-height: 330px;
 }
 /*imagenes organizodores*/
 .font-bold {
