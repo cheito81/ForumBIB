@@ -106,6 +106,7 @@ section{
   padding-left: 34px !important;
   padding-right: 34px !important;
   background: #fff;
+  position: relative;
 }
 nav{
   background:transparent !important;
@@ -167,7 +168,7 @@ position: relative;
 .customTable{
   border-collapse: collapse;
   border-spacing: 0;
-  width: 100%;
+  max-width: 100%;
   border: 1px solid #add9ad;
 }
 table th , table td, td {
@@ -236,4 +237,27 @@ table th , table td, td {
   background-color: rgba(0, 0, 0, 0.03);
   border: 1px solid rgba(0, 0, 0, 0.125);
   font-size: 25px;
+}
+
+@media only screen and (max-width: 700px) {
+  .bg-image-2{
+    background: url(../img/cosmo-caixa/gradasAnaPaisaje.jpg) no-repeat center center/cover;
+    min-height: 150px;
+  }
+  .bg-image-1 {
+    background: url(../img/cosmo-caixa/CosmoCaixaEspais147.jpg) no-repeat center center/cover;
+    min-height: 150px;
+  }
+
+  .imgDesc1{
+    max-height: 170px;
+  }
+  .carousel-item >img {
+ 
+    max-height: 218px;
+   }
+}
+
+.premium{
+  min-width: 200px;
 }
