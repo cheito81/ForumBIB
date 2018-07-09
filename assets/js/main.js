@@ -40,5 +40,6 @@ function navAnimation() {
 	else{
         $('#site-nav').removeClass('bg-light'); 
         $('#site-nav').removeClass('navbar-light'); 
+        $('#site-nav').addClass('navCustom').fadeIn( "slow" );
 	}
 }

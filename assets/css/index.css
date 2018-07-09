@@ -111,13 +111,12 @@ section{
 nav{
   background:transparent !important;
   font-weight: bold;
-  color: rgba(116, 192, 175) !important;
+  color:#74C0AF !important;
   -webkit-transition: all 0.8s linear 0s;
   transition: all 0.8s linear 0s;
 }
 .nav-link{
-  color: rgba(116, 192, 175) !important;
-  
+  color: #74C0AF !important;
 }
 
 .carousel-item {
