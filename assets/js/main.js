@@ -12,7 +12,7 @@ $(document).ready(function(){
     }
     
     });
-   
+    $('.up').hide();
 });
 $('a').click(function (e) { 
         e.preventDefault();
@@ -36,10 +36,12 @@ function navAnimation() {
 	if(top>400){
         $('#site-nav').addClass('bg-light').fadeIn( "slow" ); 
         $('#site-nav').addClass('navbar-light').fadeIn( "slow" );
+        $('.up').show(700);
 	}
 	else{
         $('#site-nav').removeClass('bg-light'); 
         $('#site-nav').removeClass('navbar-light'); 
         $('#site-nav').addClass('navCustom').fadeIn( "slow" );
+        $('.up').hide(700);
 	}
 }

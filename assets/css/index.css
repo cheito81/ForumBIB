@@ -98,6 +98,7 @@ background-color: rgba(85, 84, 88); negro
 a.active {
   color: #56B156 !important;
   border-bottom: 1px solid;
+  font-size:20px;
 }
 
 section{
@@ -118,6 +119,9 @@ nav{
 .nav-link{
   color: #74C0AF !important;
 }
+nav a:hover {
+  font-size:20px;
+  }
 
 .carousel-item {
   max-width: 100%;
@@ -255,8 +259,22 @@ table th , table td, td {
  
     max-height: 218px;
    }
+   .logo{
+    padding-top: 0px;
+    padding: 0.12rem !important;
+    max-height: 45px;
+  }
 }
 
 .premium{
   min-width: 200px;
+}
+.up i{
+  position: fixed;
+  font-size: 2em;
+  right: 10px;
+  bottom: 40px;
+  z-index: 99;
+  color: #4a4a4a;
+  opacity: 0.5;
 }
