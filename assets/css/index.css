@@ -1,4 +1,5 @@
 body{
+  
   position: relative;
   color: #4a4a4a;
  /*background-color: rgba(116, 192, 175);*/
@@ -54,7 +55,7 @@ background-color: rgba(85, 84, 88); negro
   min-height: 100vh;
   position: relative;
   text-align: center;
-  background: url(../img/bioinformatics/technology-298256_1920.jpg) no-repeat center center/cover;
+  background: url(../img/backgrounds/connect-20333_1920.jpg) no-repeat center center/cover;
   display: table;
 }
 .site-header::before {
@@ -144,8 +145,8 @@ nav a:hover {
 .posrel{
 position: relative;
 }
-.card.hovercard .cardheader {
-  background: url("../img/bioinformatics/ordenador.jpg");
+.card.hovercard .card-header {
+  background: url("../img/backgrounds/achievement-3468104_1920.jpg");
   background-size: cover;
   height: 135px;
 }
@@ -213,7 +214,7 @@ table th , table td, td {
 }
 .bg-image-2{
   background: url(../img/cosmo-caixa/gradasAnaPaisaje.jpg) no-repeat center center/cover;
-  min-height: 300px;
+  min-height: 330px;
 }
 .imgDesc1{
   max-height: 330px;
@@ -248,7 +249,7 @@ table th , table td, td {
     min-height: 150px;
   }
   .bg-image-1 {
-    background: url(../img/cosmo-caixa/CosmoCaixaEspais147.jpg) no-repeat center center/cover;
+    background: url() no-repeat center center/cover;
     min-height: 150px;
   }
 
@@ -278,3 +279,15 @@ table th , table td, td {
   color: #4a4a4a;
   opacity: 0.5;
 }
+hr.font-weight-bold {
+  background-color: #02970d;
+  color: #02970d;
+  }
+  section h2{
+    color: #000;
+  }
+  
+  .googleMaps{
+    height: 350px;
+
+  }
