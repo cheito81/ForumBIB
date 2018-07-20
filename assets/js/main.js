@@ -18,6 +18,7 @@ $('a').click(function (e) {
         e.preventDefault();
         $(this).addClass('active');
 });
+
 /*
  * Change Navbar color while scrolling
 */
