@@ -55,7 +55,7 @@ background-color: rgba(85, 84, 88); negro
   min-height: 100vh;
   position: relative;
   text-align: center;
-  background: url(../img/backgrounds/connect-20333_1920.jpg) no-repeat center center/cover;
+  background: url(../img/backgrounds/human-skeleton-163715_1280.jpg) no-repeat center center/cover;
   display: table;
 }
 .site-header::before {
@@ -148,20 +148,70 @@ position: relative;
 .card.hovercard .card-header {
   background: url("../img/backgrounds/achievement-3468104_1920.jpg");
   background-size: cover;
-  height: 135px;
+  height: 160px;
 }
 
+.ponente1{
+  background: url("../img/bioinformatics/logo-bib-vertical.svg");
+  background-size: cover;
+  height: 160px;
+}
+.ponente2{
+  background: url("../img/ponentes/logos/la-caixa-fundacio-bancaria.png");
+  background-size: cover;
+  height: 160px; 
+}
+.ponente6{
+  background: url("../img/ponentes/logos/CRG.png")no-repeat center center;
+  background-size: cover;
+  height: 160px;
+}
+.ponente7{
+  background: url("../img/ponentes/logos/bsc-logo.jpg")no-repeat center center;
+  background-size: cover;
+  height: 160px;
+}
+.ponente8{
+  background: url("../img/ponentes/logos/cnio.png");
+  background-size: cover;
+  height: 160px;
+}
+.ponente10{
+  background: url("../img/ponentes/logos/uvic.jpg");
+  background-size: cover;
+  height: 160px;
+}
+.ponente11{
+  background: url("../img/ponentes/logos/feder.jpg")no-repeat center center;
+  background-size: cover;
+  height: 160px;
+}
+.ponente12{
+  background: url("../img/ponentes/logos/RCD.png")no-repeat center center;
+  background-size: cover;
+  height: 160px;
+}
+.ponente13{
+  background: url("../img/ponentes/logos/UB.jpg")no-repeat center center;
+  background-size: cover;
+  height: 160px;
+}
+.ponente14{
+  background: url("../img/ponentes/logos/bigfinite_Logo.png");
+  background-size: cover;
+  height: 160px;
+}
 .card.hovercard .avatar {
   position: relative;
-  top: -50px;
-  margin-bottom: -50px;
+  top: -62.5px;
+  margin-bottom: -62.5px;
 }
 
 .card.hovercard .avatar img {
-  width: 100px;
-  height: 100px;
-  max-width: 100px;
-  max-height: 100px;
+  width: 125px;
+  height: 125px;
+  max-width: 125px;
+  max-height: 125px;
 }
 .fondoVerde{
   background-color: #5cb574;
