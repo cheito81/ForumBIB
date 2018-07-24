@@ -162,7 +162,7 @@ position: relative;
   height: 160px; 
 }
 .ponente6{
-  background: url("../img/ponentes/logos/CRG.png")no-repeat center center;
+  background: url("../img/ponentes/logos/CRG.jpg")no-repeat center center;
   background-size: cover;
   height: 160px;
 }
@@ -199,6 +199,17 @@ position: relative;
 .ponente14{
   background: url("../img/ponentes/logos/bigfinite_Logo.png");
   background-size: cover;
+  height: 160px;
+}
+.icsLogo{
+  background: url("../img/ponentes/logos/ICS.jpg");
+  background-size: cover;
+  height: 160px;
+}
+.biocatLogo{
+  background: url("../img/ponentes/logos/biocatLogo.jpeg")no-repeat center center;
+  background-size: cover;
+ 
   height: 160px;
 }
 .card.hovercard .avatar {
