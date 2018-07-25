@@ -212,6 +212,31 @@ position: relative;
  
   height: 160px;
 }
+.HarvardChanLogo {
+  background: url("../img/ponentes/logos/HarvardChan_logo_center_RGB_Large.png")no-repeat center center;
+  background-size: cover;
+ 
+  height: 160px;
+}
+.danaFarberLogo {
+  background: url("../img/ponentes/logos/danafarber.jpg")no-repeat center center;
+  background-size: cover;
+ 
+  height: 160px;
+}
+
+.saludDigital{
+  background: url("../img/ponentes/logos/mental-2470926_640.jpg")no-repeat center center;
+  background-size: cover;
+ 
+  height: 160px;
+}
+.capitalCell{
+  background: url("../img/ponentes/logos/capitalCell.jpg")no-repeat center center;
+  background-size: cover;
+ 
+  height: 160px;
+}
 .card.hovercard .avatar {
   position: relative;
   top: -62.5px;
@@ -277,9 +302,7 @@ table th , table td, td {
   background: url(../img/cosmo-caixa/gradasAnaPaisaje.jpg) no-repeat center center/cover;
   min-height: 330px;
 }
-.imgDesc1{
-  max-height: 330px;
-}
+
 /*imagenes organizodores*/
 .font-bold {
   font-weight: bold;
@@ -296,14 +319,19 @@ table th , table td, td {
 /*fin imagenes organizodores*/
 
 .footer{
-  font-size: 16px;
+  font-size: 12px;
 }
 .contacto{
   background-color: rgba(0, 0, 0, 0.03);
   border: 1px solid rgba(0, 0, 0, 0.125);
   font-size: 25px;
 }
-
+@media only screen and (min-width: 700px) {
+  .imgDesc1{
+    max-height: 330px;
+    float: left;
+  }
+}
 @media only screen and (max-width: 700px) {
   .bg-image-2{
     background: url(../img/cosmo-caixa/gradasAnaPaisaje.jpg) no-repeat center center/cover;
@@ -314,9 +342,6 @@ table th , table td, td {
     min-height: 150px;
   }
 
-  .imgDesc1{
-    max-height: 170px;
-  }
   .carousel-item >img {
  
     max-height: 218px;
@@ -325,6 +350,13 @@ table th , table td, td {
     padding-top: 0px;
     padding: 0.12rem !important;
     max-height: 45px;
+  }
+  nav{
+    background: #f8f9fa !important;
+  }
+  .imgDesc1{
+    max-height: 330px;
+    max-height: 170px;
   }
 }
 
@@ -351,4 +383,7 @@ hr.font-weight-bold {
   .googleMaps{
     height: 350px;
 
+  }
+  .lema{
+    font-family: 'Francois One', sans-serif;
   }
