@@ -120,6 +120,7 @@ nav{
   color:#74C0AF !important;
   -webkit-transition: all 0.8s linear 0s;
   transition: all 0.8s linear 0s;
+  max-height: 64px;
 }
 .nav-link{
   color: #74C0AF !important;
@@ -350,10 +351,15 @@ table th , table td, td {
  
     max-height: 218px;
    }
-   .logo{
+   .logoLink{
     padding-top: 0px;
     padding: 0.12rem !important;
-    max-height: 45px;
+    max-height: 35px;
+  }
+  .logo{
+    padding-top: 0px;
+    padding: 0.12rem !important;
+    max-height: 35px;
   }
   nav{
     background: #f8f9fa !important;
