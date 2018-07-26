@@ -2,7 +2,7 @@ body{
   
   position: relative;
   color: #4a4a4a;
-  
+  font-family: 'Ubuntu', sans-serif;
  /*background-color: rgba(116, 192, 175);*/
 }
 nav{
@@ -44,6 +44,9 @@ background-color: rgba(85, 84, 88); negro
   background: url(../img/partner/partner-8.png) no-repeat center center/contain;
 }
 .btnToggler{
+  border-color:transparent !important;
+}
+.btnToggler:focus{
   border-color:transparent !important;
 }
 /* 
@@ -355,6 +358,7 @@ table th , table td, td {
   nav{
     background: #f8f9fa !important;
   }
+  
   .imgDesc1{
     max-height: 330px;
     max-height: 170px;
