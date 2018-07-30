@@ -205,6 +205,21 @@ position: relative;
   background-size: cover;
   height: 160px;
 }
+.salut_c2{
+  background: url("../img/ponentes/logos/salut_c2.jpg")no-repeat center center;
+  background-size: cover;
+  height: 160px;
+}
+.salut_v3{
+  background: url("../img/ponentes/logos/salut_v3.jpg");
+  background-size: cover;
+  height: 160px;
+}
+.GenSalut{
+  background: url("../img/ponentes/logos/GenSalut.png");
+  background-size: cover;
+  height: 160px;
+}
 .icsLogo{
   background: url("../img/ponentes/logos/ICS.jpg");
   background-size: cover;
