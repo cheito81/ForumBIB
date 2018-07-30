@@ -120,7 +120,6 @@ nav{
   color:#74C0AF !important;
   -webkit-transition: all 0.8s linear 0s;
   transition: all 0.8s linear 0s;
-  max-height: 64px;
 }
 .nav-link{
   color: #74C0AF !important;
@@ -351,26 +350,23 @@ table th , table td, td {
  
     max-height: 218px;
    }
-   .logoLink{
-    padding-top: 0px;
-    padding: 0.12rem !important;
-    max-height: 35px;
-  }
-  .logo{
-    padding-top: 0px;
-    padding: 0.12rem !important;
-    max-height: 35px;
-  }
-  nav{
-    background: #f8f9fa !important;
-  }
-  
+   
   .imgDesc1{
     max-height: 330px;
     max-height: 170px;
   }
 }
-
+@media only screen and (max-width: 992px) {
+  nav{
+    background: #f8f9fa !important;
+   
+  }
+  .logo{
+    padding-top: 0px;
+    padding: 0.12rem !important;
+    max-height: 45px;
+  }
+}
 .premium{
   min-width: 200px;
 }
