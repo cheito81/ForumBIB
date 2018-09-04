@@ -87,18 +87,38 @@ background-color: rgba(85, 84, 88); negro
   height: 100vh;
 }
 .site-header .intro h2 {
-  margin-top: 0px;
+  margin-top: 10px;
   font-size: 25px;
   font-weight: 300;
 }
 .site-header .intro h1 {
   margin-top: 0px;
-  font-size: 60px;
+  font-size: 160px;
 }
-.site-header .intro p {
-  font-size: 20px;
-  margin-bottom: 10px;
-  font-weight: 300;
+
+@media only screen and (max-width: 815px) {
+  .site-header .intro h1 {
+    margin-top: 0px;
+    font-size: 80px;
+  }
+  .site-header .intro h2 {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 300;
+  }
+  .site-header .intro h3 {
+    margin-top: 0px;
+    font-size: 20px;
+  }
+  .site-header .intro .container h3 {
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-weight: 300;
+  }
+  .site-header .intro .container i {
+    font-size: 45px;
+  }
 }
 a.active {
   color: #56B156 !important;
@@ -231,6 +251,12 @@ position: relative;
  
   height: 160px;
 }
+.logoClinicBarcelona{
+  background: url("../img/ponentes/logos/clinicBarcelona.jpg")no-repeat center center;
+  background-size: cover;
+ 
+  height: 160px;
+}
 .HarvardChanLogo {
   background: url("../img/ponentes/logos/HarvardChan_logo_center_RGB_Large.png")no-repeat center center;
   background-size: cover;
@@ -252,6 +278,12 @@ position: relative;
 }
 .capitalCell{
   background: url("../img/ponentes/logos/capitalCell.jpg")no-repeat center center;
+  background-size: cover;
+ 
+  height: 160px;
+}
+.logoGeneralitat_de_Catalunya{
+  background: url("../img/ponentes/logos/Generalitat_de_Catalunya.png");
   background-size: cover;
  
   height: 160px;

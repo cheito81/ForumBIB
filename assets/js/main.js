@@ -27,9 +27,9 @@ $(window).scroll(function(){
 	navAnimation();
 });
 
-$(window).load(function(){
+/**$(window).load(function(){
 	navAnimation();
-});
+});*/
 
 function navAnimation() {
 	var top=$(window).scrollTop();
