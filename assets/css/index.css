@@ -306,6 +306,9 @@ position: relative;
 .fondoAzul{
   background-color: #6dc1bb;
 }
+.textoVerde{
+  color:#5cb574;
+}
 .customTable{
   border-collapse: collapse;
   border-spacing: 0;
@@ -425,6 +428,20 @@ table th , table td, td {
   z-index: 99;
   color: #4a4a4a;
   opacity: 0.5;
+}
+.idioma{
+  position: fixed;
+  background-color: #4a4a4a;
+  font-size: 0.8em;
+  right: 10px;
+  top: 80px;
+  z-index: 99;
+  color: white;
+  opacity: 0.4;
+}
+.idioma:hover{
+  color: white;
+  font-size: 1em;
 }
 hr.font-weight-bold {
   background-color: #02970d;
