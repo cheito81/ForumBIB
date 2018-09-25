@@ -174,42 +174,16 @@ position: relative;
   background-size: cover;
   height: 160px;
 }
-
-.ponente1{
-  background: url("../img/bioinformatics/logo-bib-vertical.svg");
-  background-size: cover;
-  height: 160px;
+#logoImim,#logoRCD{
+  max-height: 120px;
 }
+
 .ponente2{
   background: url("../img/ponentes/logos/la-caixa.png")no-repeat center center;
   background-size: cover;
   height: 160px; 
 }
-.ponente6{
-  background: url("../img/ponentes/logos/CRG.jpg")no-repeat center center;
-  background-size: cover;
-  height: 160px;
-}
-.ponente7{
-  background: url("../img/ponentes/logos/bsc-logo.jpg")no-repeat center center;
-  background-size: cover;
-  height: 160px;
-}
-.ponente8{
-  background: url("../img/ponentes/logos/cnio.png");
-  background-size: cover;
-  height: 160px;
-}
-.ponente10{
-  background: url("../img/ponentes/logos/uvic.jpg");
-  background-size: cover;
-  height: 160px;
-}
-.ponente11{
-  background: url("../img/ponentes/logos/feder.jpg")no-repeat center center;
-  background-size: cover;
-  height: 160px;
-}
+
 .ponente12{
   background: url("../img/ponentes/logos/RCD.png")no-repeat center center;
   background-size: cover;
@@ -235,9 +209,7 @@ position: relative;
   background-size: cover;
   height: 160px;
 }
-.GenSalut{
-  background: url("../img/ponentes/logos/GenSalut.png");
-  background-size: cover;
+.logosGen{
   height: 160px;
 }
 .icsLogo{
@@ -251,12 +223,7 @@ position: relative;
  
   height: 160px;
 }
-.logoClinicBarcelona{
-  background: url("../img/ponentes/logos/clinicBarcelona.jpg")no-repeat center center;
-  background-size: cover;
- 
-  height: 160px;
-}
+
 .HarvardChanLogo {
   background: url("../img/ponentes/logos/HarvardChan_logo_center_RGB_Large.png")no-repeat center center;
   background-size: cover;
@@ -283,20 +250,44 @@ position: relative;
   height: 160px;
 }
 .logoGeneralitat_de_Catalunya{
-  background: url("../img/ponentes/logos/Generalitat_de_Catalunya.png");
+  background: url("../img/ponentes/logos/genCatalunya.jpg");
   background-size: cover;
  
   height: 160px;
 }
-.card.hovercard .avatar {
+
+.logoUAB{
+  background: url("../img/ponentes/logos/logoUAB.png");
+  background-size: cover;
+ 
+  height: 160px;
+} 
+.logoAqua{
+  background: url("../img/ponentes/logos/logoAquas.jpg");
+  background-size: cover;
+ 
+  height: 160px;
+} 
+.logoIcrea{
+  background: url("../img/ponentes/logos/logoIcrea.jpg");
+  background-size: cover;
+ 
+  height: 160px;
+} 
+.genRecerca{
+  background: url("../img/ponentes/logos/genRecerca.jpg");
+  background-size: cover;
+ 
+  height: 160px;
+} 
+/*.card.hovercard .avatar {
   position: relative;
   top: -62.5px;
   margin-bottom: -62.5px;
-}
+}*/
 
 .card.hovercard .avatar img {
-  width: 125px;
-  height: 125px;
+  
   max-width: 125px;
   max-height: 125px;
 }
