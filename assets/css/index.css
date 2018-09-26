@@ -174,8 +174,8 @@ position: relative;
   background-size: cover;
   height: 160px;
 }
-#logoImim,#logoRCD{
-  max-height: 120px;
+.logosPonentes{
+  max-height: 68.56px;
 }
 
 .ponente2{
@@ -237,18 +237,6 @@ position: relative;
   height: 160px;
 }
 
-.saludDigital{
-  background: url("../img/ponentes/logos/mental-2470926_640.jpg")no-repeat center center;
-  background-size: cover;
- 
-  height: 160px;
-}
-.capitalCell{
-  background: url("../img/ponentes/logos/capitalCell.jpg")no-repeat center center;
-  background-size: cover;
- 
-  height: 160px;
-}
 .logoGeneralitat_de_Catalunya{
   background: url("../img/ponentes/logos/genCatalunya.jpg");
   background-size: cover;
@@ -262,12 +250,7 @@ position: relative;
  
   height: 160px;
 } 
-.logoAqua{
-  background: url("../img/ponentes/logos/logoAquas.jpg");
-  background-size: cover;
- 
-  height: 160px;
-} 
+
 .logoIcrea{
   background: url("../img/ponentes/logos/logoIcrea.jpg");
   background-size: cover;
@@ -353,13 +336,13 @@ table th , table td, td {
   font-weight: bold;
 }
 .imgBIBorg{
-  max-height: 127px;
+  max-height: 103px;
 }
 .imgBiocatOrg{
   max-height: 103px;
 }
 .imgCaixaOrg{
-  max-height: 113px;
+  max-height: 103px;
 }
 /*fin imagenes organizodores*/
 
@@ -433,6 +416,10 @@ table th , table td, td {
 .idioma:hover{
   color: white;
   font-size: 1em;
+}
+.linksIconHome:hover{
+  font-size: 20px;
+  text-decoration: none;
 }
 hr.font-weight-bold {
   background-color: #02970d;
