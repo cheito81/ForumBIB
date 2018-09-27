@@ -395,6 +395,7 @@ table th , table td, td {
   min-width: 200px;
 }
 .up i{
+  position: absolute;
   position: fixed;
   font-size: 2em;
   right: 10px;
@@ -403,7 +404,9 @@ table th , table td, td {
   color: #4a4a4a;
   opacity: 0.5;
 }
+
 .idioma{
+  position: absolute;
   position: fixed;
   background-color: #4a4a4a;
   font-size: 0.8em;
@@ -414,16 +417,16 @@ table th , table td, td {
   opacity: 0.4;
 }
 .idioma:hover{
+  text-decoration: none;
   color: white;
-  font-size: 1em;
 }
 .linksIconHome:hover{
-  font-size: 20px;
-  text-decoration: none;
+  color: #02970d !important;
+  
 }
 hr.font-weight-bold {
-  background-color: #02970d;
-  color: #02970d;
+  background-color: #02970d !important;
+  color: #02970d !important;
   }
   section h2{
     color: #000;
@@ -435,4 +438,10 @@ hr.font-weight-bold {
   }
   .lema{
     font-family: 'Francois One', sans-serif;
+  }
+  .aboutBib{
+    max-height: 224px;
+  }
+  .twitter{
+    text-decoration: none;
   }
