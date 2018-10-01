@@ -177,92 +177,9 @@ position: relative;
 .logosPonentes{
   max-height: 68.56px;
 }
-
-.ponente2{
-  background: url("../img/ponentes/logos/la-caixa.png")no-repeat center center;
-  background-size: cover;
-  height: 160px; 
-}
-
-.ponente12{
-  background: url("../img/ponentes/logos/RCD.png")no-repeat center center;
-  background-size: cover;
-  height: 160px;
-}
-.ponente13{
-  background: url("../img/ponentes/logos/UB.jpg")no-repeat center center;
-  background-size: cover;
-  height: 160px;
-}
-.ponente14{
-  background: url("../img/ponentes/logos/bigfinite_Logo.png");
-  background-size: cover;
-  height: 160px;
-}
-.salut_c2{
-  background: url("../img/ponentes/logos/salut_c2.jpg")no-repeat center center;
-  background-size: cover;
-  height: 160px;
-}
-.salut_v3{
-  background: url("../img/ponentes/logos/salut_v3.jpg");
-  background-size: cover;
-  height: 160px;
-}
 .logosGen{
   height: 160px;
 }
-.icsLogo{
-  background: url("../img/ponentes/logos/ICS.jpg");
-  background-size: cover;
-  height: 160px;
-}
-.biocatLogo{
-  background: url("../img/ponentes/logos/biocatLogo.jpeg")no-repeat center center;
-  background-size: cover;
- 
-  height: 160px;
-}
-
-.HarvardChanLogo {
-  background: url("../img/ponentes/logos/HarvardChan_logo_center_RGB_Large.png")no-repeat center center;
-  background-size: cover;
- 
-  height: 160px;
-}
-.danaFarberLogo {
-  background: url("../img/ponentes/logos/danafarber.jpg")no-repeat center center;
-  background-size: cover;
- 
-  height: 160px;
-}
-
-.logoGeneralitat_de_Catalunya{
-  background: url("../img/ponentes/logos/genCatalunya.jpg");
-  background-size: cover;
- 
-  height: 160px;
-}
-
-.logoUAB{
-  background: url("../img/ponentes/logos/logoUAB.png");
-  background-size: cover;
- 
-  height: 160px;
-} 
-
-.logoIcrea{
-  background: url("../img/ponentes/logos/logoIcrea.jpg");
-  background-size: cover;
- 
-  height: 160px;
-} 
-.genRecerca{
-  background: url("../img/ponentes/logos/genRecerca.jpg");
-  background-size: cover;
- 
-  height: 160px;
-} 
 /*.card.hovercard .avatar {
   position: relative;
   top: -62.5px;
@@ -335,15 +252,10 @@ table th , table td, td {
 .font-bold {
   font-weight: bold;
 }
-.imgBIBorg{
+.imgBIBorg,.imgBiocatOrg,.imgCaixaOrg{
   max-height: 103px;
 }
-.imgBiocatOrg{
-  max-height: 103px;
-}
-.imgCaixaOrg{
-  max-height: 103px;
-}
+
 /*fin imagenes organizodores*/
 
 .footer{
@@ -354,11 +266,16 @@ table th , table td, td {
   border: 1px solid rgba(0, 0, 0, 0.125);
   font-size: 25px;
 }
+
+.googleMaps{
+  height: 350px;
+}
 @media only screen and (min-width: 700px) {
   .imgDesc1{
     max-height: 330px;
     float: left;
   }
+ 
 }
 @media only screen and (max-width: 700px) {
   .bg-image-2{
@@ -371,7 +288,6 @@ table th , table td, td {
   }
 
   .carousel-item >img {
- 
     max-height: 218px;
    }
    
@@ -379,6 +295,11 @@ table th , table td, td {
     max-height: 330px;
     max-height: 170px;
   }
+  
+  .googleMaps{
+    max-height: 218px;
+  }
+  
 }
 @media only screen and (max-width: 992px) {
   nav{
@@ -432,10 +353,6 @@ hr.font-weight-bold {
     color: #000;
   }
   
-  .googleMaps{
-    height: 350px;
-
-  }
   .lema{
     font-family: 'Francois One', sans-serif;
   }
