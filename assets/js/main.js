@@ -12,7 +12,7 @@ $(document).ready(function(){
     }
     
     });
-    $('.up').hide();
+    $('.up').hide(); 
 });
 $('a').click(function (e) { 
         e.preventDefault();

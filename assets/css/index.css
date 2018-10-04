@@ -3,7 +3,7 @@ body{
   position: relative;
   color: #4a4a4a;
   font-family: 'Roboto', sans-serif;
- /*background-color: rgba(116, 192, 175);*/
+  /*background-color: #F0ECEC;*/
 }
 nav{
   margin : 0%;
@@ -145,9 +145,9 @@ nav{
   color: #74C0AF !important;
 }
 nav a:hover {
-  font-size:20px;
+  /*font-size:20px;*/
+  border-bottom: 1px solid #74C0AF !important;
   }
-
 .carousel-item {
   max-width: 100%;
   min-width: 100%;
@@ -266,7 +266,6 @@ table th , table td, td {
   border: 1px solid rgba(0, 0, 0, 0.125);
   font-size: 25px;
 }
-
 .googleMaps{
   height: 350px;
 }
@@ -275,7 +274,6 @@ table th , table td, td {
     max-height: 330px;
     float: left;
   }
- 
 }
 @media only screen and (max-width: 700px) {
   .bg-image-2{
@@ -359,6 +357,4 @@ hr.font-weight-bold {
   .aboutBib{
     max-height: 224px;
   }
-  .twitter{
-    text-decoration: none;
-  }
+  
