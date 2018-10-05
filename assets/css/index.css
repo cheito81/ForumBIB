@@ -59,7 +59,7 @@ background-color: rgba(85, 84, 88); negro
   min-height: 100vh;
   position: relative;
   text-align: center;
-  background: url(../img/backgrounds/human-skeleton-163715_1280.jpg) no-repeat center center/cover;
+  background: url(../img/backgrounds/wallpaperForumBib.jpg) no-repeat center center/cover;
   display: table;
 }
 .site-header::before {
@@ -180,11 +180,10 @@ position: relative;
 .logosGen{
   height: 160px;
 }
-/*.card.hovercard .avatar {
-  position: relative;
-  top: -62.5px;
-  margin-bottom: -62.5px;
-}*/
+.card.hovercard .avatar {
+  
+  margin-top: 1.25rem;
+}
 
 .card.hovercard .avatar img {
   
@@ -244,7 +243,7 @@ table th , table td, td {
   min-height: 300px;
 }
 .bg-image-2{
-  background: url(../img/cosmo-caixa/gradasAnaPaisaje.jpg) no-repeat center center/cover;
+  background: url(../img/cosmo-caixa/gradasAnaVerde.jpg) no-repeat center center/cover;
   min-height: 330px;
 }
 
@@ -277,7 +276,7 @@ table th , table td, td {
 }
 @media only screen and (max-width: 700px) {
   .bg-image-2{
-    background: url(../img/cosmo-caixa/gradasAnaPaisaje.jpg) no-repeat center center/cover;
+    background: url(../img/cosmo-caixa/gradasAnaVerde.jpg) no-repeat center center/cover;
     min-height: 150px;
   }
   .bg-image-1 {
