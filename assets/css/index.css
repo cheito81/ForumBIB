@@ -285,7 +285,7 @@ table th , table td, td {
   }
   .bg-image-1 {
     background: url() no-repeat center center/cover;
-    min-height: 150px;
+    height: 150px;
   }
 
   .carousel-item >img {
@@ -293,8 +293,8 @@ table th , table td, td {
    }
    
   .imgDesc1{
-    max-height: 330px;
-    max-height: 170px;
+    
+    min-width: 316px;
   }
   
   .googleMaps{
