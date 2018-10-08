@@ -280,7 +280,7 @@ table th , table td, td {
 }
 @media only screen and (max-width: 700px) {
   .bg-image-2{
-    background: url(../img/cosmo-caixa/gradasAnaVerde.jpg) no-repeat center center/cover;
+    background: url(../img/cosmo-caixa/gradasAnaPaisaje.jpg) no-repeat center center/cover;
     min-height: 150px;
   }
   .bg-image-1 {
