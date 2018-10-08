@@ -190,6 +190,10 @@ position: relative;
   max-width: 125px;
   max-height: 125px;
 }
+.card.hovercard {
+
+  min-height: 388px;
+}
 .fondoVerde{
   background-color: #5cb574;
 }
