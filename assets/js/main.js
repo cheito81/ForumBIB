@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+    //$('#idioma').addClass('idiomaInicio');
     linkInterno = $('a[href^="#"]');
     linkInterno.on('click',function(e) {
     e.preventDefault();
@@ -38,11 +38,13 @@ function navAnimation() {
         $('#site-nav').addClass('bg-light').fadeIn( "slow" ); 
         $('#site-nav').addClass('navbar-light').fadeIn( "slow" );
         $('.up').show(700);
+        //$('#idioma').addClass('idiomaInicio');
 	}
 	else{
         $('#site-nav').removeClass('bg-light'); 
         $('#site-nav').removeClass('navbar-light'); 
         $('#site-nav').addClass('navCustom').fadeIn( "slow" );
+        //$('#idioma').removeClass('idiomaInicio').addClass('idioma');
         $('.up').hide(700);
 	}
 }
