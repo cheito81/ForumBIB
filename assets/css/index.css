@@ -277,10 +277,12 @@ table th , table td, td {
 }
 @media only screen and (min-width: 700px) {
   .imgDesc1{
-    max-height: 230px;
+    max-height: 300px;
     float: left;
   }
+  
 }
+
 @media only screen and (max-width: 700px) {
   .bg-image-2{
     background: url(../img/cosmo-caixa/gradasAnaPaisaje.jpg) no-repeat center center/cover;
@@ -297,9 +299,8 @@ table th , table td, td {
     max-height: 218px;
    }
    
-  .imgDesc1{
-    
-    min-width: 316px;
+  .imgDesc2{
+    max-width: 180px;
   }
   
   .googleMaps{
